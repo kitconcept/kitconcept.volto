@@ -5,7 +5,8 @@ Changelog
 1.5.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add preview_image_original to volto.preview_image behavior.
+  [tisto]
 
 
 1.5.2 (2020-12-14)

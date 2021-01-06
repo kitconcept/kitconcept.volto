@@ -16,6 +16,12 @@ class IPreview(model.Schema):
         required=False,
     )
 
+    preview_image_original = namedfile.NamedBlobImage(
+        title=_(u"label_preview_image_original", default=u"Preview image (original scale)"),
+        description=u"Preview image in the original scale without image cropping.",
+        required=False,
+    )
+
     preview_caption = TextLine(
         title=_(u"Preview image caption"),
         description=u"",
