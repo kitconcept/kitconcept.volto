@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.7.3 (unreleased)
+------------------
+
+- Revert "Improve ensure_pam setuphandlers helper"
+  [sneridagh]
 
 1.7.2 (2021-01-26)
 ------------------
