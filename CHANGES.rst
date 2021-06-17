@@ -5,7 +5,8 @@ Changelog
 2.2.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add preview_image to transforms
+  [sneridagh]
 
 
 2.2.1 (2021-04-21)
