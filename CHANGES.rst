@@ -5,8 +5,8 @@ Changelog
 2.5.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- More agnostic by simplify definition of ``Plone Site`` in GS profile. This fixes the error when applying it in Plone 6 with DX site root.
+  [sneridagh]
 
 2.5.0 (2021-09-12)
 ------------------
