@@ -5,7 +5,8 @@ Changelog
 2.5.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix multilingual fixture for docker image, the guard seems not to work there, for some reason the blocks and blocks_layout are not set yet (?)
+  [sneridagh]
 
 
 2.5.1 (2021-09-12)
