@@ -5,7 +5,8 @@ Changelog
 2.5.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix condition of the guard for the multilingual fixture in the docker image.
+  [sneridagh]
 
 
 2.5.2 (2021-09-13)
