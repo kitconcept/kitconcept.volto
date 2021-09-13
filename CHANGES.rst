@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.5.3 (unreleased)
+2.5.3 (2021-09-13)
 ------------------
 
 - Fix condition of the guard for the multilingual fixture in the docker image.
