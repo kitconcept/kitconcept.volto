@@ -5,7 +5,7 @@ Changelog
 2.5.3 (unreleased)
 ------------------
 
-- Fix condition from last fix :(
+- Fix condition of the guard for the multilingual fixture in the docker image.
   [sneridagh]
 
 
