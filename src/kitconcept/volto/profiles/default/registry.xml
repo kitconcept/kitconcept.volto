@@ -9,9 +9,6 @@
     <value>False</value>
   </record>
 
-  <records interface="kitconcept.volto.interfaces.IVoltoSettings" prefix="volto">
-  </records>
-
   <record 
     name="plone.types_use_view_action_in_listings"
     interface="Products.CMFPlone.interfaces.controlpanel.ITypesSchema"
