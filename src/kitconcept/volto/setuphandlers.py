@@ -42,12 +42,6 @@ def uninstall(context):
     # Do something at the end of the uninstallation of this package.
 
 
-def post_install_multilingual(context):
-    """Post install script for multilingual fixture"""
-    enable_pam(context)
-    create_default_homepage(context)
-
-
 def enable_pam(portal):
     # Ensure that portal is portal
     portal = api.portal.get()

@@ -59,15 +59,6 @@
       />
 
   <genericsetup:registerProfile
-      name="multilingual"
-      title="kitconcept.volto multilingual Cypress tests fixtures"
-      directory="profiles/multilingual"
-      description="Special test fixture for multilingual use case"
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      post_handler=".setuphandlers.post_install_multilingual"
-      />
-
-  <genericsetup:registerProfile
       name="richtext"
       title="kitconcept.volto p51 profile"
       directory="profiles/richtext"
