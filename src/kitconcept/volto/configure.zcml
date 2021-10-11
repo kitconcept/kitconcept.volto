@@ -11,14 +11,9 @@
 
   <i18n:registerTranslations directory="locales" />
 
-  <include file="dependencies.zcml" />
+  <include package="plone.volto" />
 
-  <include package=".behaviors" />
-  <include package=".browser" />
-
-  <include file="patches.zcml" />
   <include file="upgrades.zcml" />
-
 
   <browser:page
     for="Products.CMFPlone.interfaces.IPloneSiteRoot"
@@ -55,24 +50,6 @@
       />
 
   <genericsetup:registerProfile
-      name="demo"
-      title="kitconcept.volto demo special requirements"
-      directory="profiles/demo"
-      description="Special requirements and setup for demo site"
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      post_handler=".setuphandlers.create_demo_homepage"
-      />
-
-  <genericsetup:registerProfile
-      name="multilingual"
-      title="kitconcept.volto multilingual Cypress tests fixtures"
-      directory="profiles/multilingual"
-      description="Special test fixture for multilingual use case"
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      post_handler=".setuphandlers.post_install_multilingual"
-      />
-
-  <genericsetup:registerProfile
       name="richtext"
       title="kitconcept.volto p51 profile"
       directory="profiles/richtext"
@@ -83,34 +60,5 @@
   <utility
       factory=".setuphandlers.HiddenProfiles"
       name="kitconcept.volto-hiddenprofiles" />
-
-  <browser:page
-      name="volto_settings"
-      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
-      class=".controlpanel.VoltoSettingsControlPanel"
-      permission="cmf.ManagePortal"
-      />
-
-  <adapter
-    factory=".controlpanel.VoltoControlpanel"
-    name="volto-settings" />
-
-  <adapter
-    factory=".scaling.VoltoImageScalingFactory"
-    for="plone.app.contenttypes.interfaces.IImage"
-  />
-
-  <adapter name="hasPreviewImage" factory=".indexers.hasPreviewImage" />
-
-  <configure zcml:condition="have plonerestapi-7">
-    <subscriber factory=".transforms.NestedResolveUIDDeserializer"
-    provides="plone.restapi.interfaces.IBlockFieldDeserializationTransformer"/>
-    <subscriber factory=".transforms.NestedResolveUIDDeserializerRoot"
-    provides="plone.restapi.interfaces.IBlockFieldDeserializationTransformer"/>
-    <subscriber factory=".transforms.NestedResolveUIDSerializer"
-    provides="plone.restapi.interfaces.IBlockFieldSerializationTransformer"/>
-    <subscriber factory=".transforms.NestedResolveUIDSerializerRoot"
-    provides="plone.restapi.interfaces.IBlockFieldSerializationTransformer"/>
-  </configure>
 
 </configure>
