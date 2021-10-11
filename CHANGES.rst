@@ -5,7 +5,8 @@ Changelog
 2.5.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Make kitconcept.volto depends on plone.volto
+  [timo, sneridagh]
 
 
 2.5.3 (2021-09-13)
