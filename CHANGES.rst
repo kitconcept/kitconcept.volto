@@ -5,7 +5,8 @@ Changelog
 3.0.0a2 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Install plone.volto along when installing kitconcept.volto
+  [sneridagh]
 
 
 3.0.0a1 (2021-10-11)
