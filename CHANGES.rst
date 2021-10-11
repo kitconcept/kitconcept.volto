@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-3.0.0a2 (unreleased)
+3.0.0a2 (2021-10-11)
 --------------------
 
 - Install plone.volto along when installing kitconcept.volto
