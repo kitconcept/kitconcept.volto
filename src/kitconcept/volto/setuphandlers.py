@@ -17,9 +17,14 @@ from zope.component.interfaces import IFactory
 from zope.container.interfaces import INameChooser
 from zope.interface import implementer
 
+from kitconcept.contentcreator.creator import create_item_runner
+from kitconcept.contentcreator.creator import load_json
+from kitconcept.contentcreator.creator import content_creator_from_folder
+
 import json
 import logging
 import transaction
+import os
 
 logger = logging.getLogger("kitconcept.volto")
 
@@ -568,3 +573,23 @@ def create_root_homepage(context, default_home=None):
         portal.manage_addProperty(
             "blocks_layout", json.dumps(blocks_layout), "string"
         )  # noqa
+
+def import_example_content(context):
+    portal = api.portal.get()
+
+    # enable content non-globally addable types just for initial content
+    # creation
+    TEMP_ENABLE_CONTENT_TYPES = ["Folder"]
+    for content_type in TEMP_ENABLE_CONTENT_TYPES:
+        enable_content_type(portal, content_type)
+
+    content_creator_from_folder(
+        folder_name=os.path.join(
+            os.path.dirname(__file__), "content_creator"
+        ),
+    )
+
+    # disable again content non-globally addable types just for initial content
+    # creation
+    for content_type in TEMP_ENABLE_CONTENT_TYPES:
+        disable_content_type(portal, content_type)
