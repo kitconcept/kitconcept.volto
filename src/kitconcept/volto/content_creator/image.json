@@ -6,5 +6,7 @@
   "set_local_image": {
     "image": "image-1.jpg"
   },
-  "subjects": ["content-type"]
+  "subjects": [
+    "High Performance Computing"
+  ]
 }

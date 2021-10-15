@@ -5,11 +5,11 @@
 	"description": "The simulation of complex systems in natural science or engineering depends on the development of adequate mathematical models. Thus the development of realistic and yet efficient models is one of our core activities.",
 	"review_state": "published",
 	"subjects": [
-		"content-type"
+		"High Performance Computing"
 	],
-  "set_local_image": {
-    "preview_image": "image-1.jpg"
-  },
+	"set_local_image": {
+		"preview_image": "image-1.jpg"
+	},
 	"blocks": {
 		"d3f1c443-583f-4e8e-a682-3bf25752a300": {
 			"@type": "title"
