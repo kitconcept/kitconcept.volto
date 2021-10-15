@@ -193,19 +193,19 @@
 				},
 				{
 					"@type": "teaser",
-					"description": "Monogenetic diseases provide a direct link between a change in protein function to cell and organ dysfunction. Studying monogenetic diseases often permits identification of cellular roles of ion channels. Moreover, disease-causing mutations usually affect important functions of the affected proteins, and analysis of the functional consequences of such mutations thus provides novel insights into the molecular determinants of protein functions.",
+					"description": "In the human disease retinitis pigmentosa the photoreceptors degenerate, leading to blindness. Electrical prostheses can elicit visual sensations in patients; however, processes secondary to photoreceptor death lead to pathological rhythmic activity in the remaining retinal network that seems to interfere with this therapeutic approach.",
 					"href": [
 						{
-							"@id": "/examples/page-5",
-							"Description": "Monogenetic diseases provide a direct link between a change in protein function to cell and organ dysfunction. Studying monogenetic diseases often permits identification of cellular roles of ion channels. Moreover, disease-causing mutations usually affect important functions of the affected proteins, and analysis of the functional consequences of such mutations thus provides novel insights into the molecular determinants of protein functions.",
-							"Title": "Pathomechanisms of human diseases",
+							"@id": "/examples/page-4",
+							"Description": "In the human disease retinitis pigmentosa the photoreceptors degenerate, leading to blindness. Electrical prostheses can elicit visual sensations in patients; however, processes secondary to photoreceptor death lead to pathological rhythmic activity in the remaining retinal network that seems to interfere with this therapeutic approach.",
+							"Title": "Novel therapeutic options for human diseases",
 							"hasPreviewImage": true,
 							"head_title": null,
-							"title": "Pathomechanisms of human diseases"
+							"title": "Novel therapeutic options for human diseases"
 						}
 					],
 					"id": "d931caf2-e8a5-4fdc-ade6-106df45b341f",
-					"title": "Generation, Propagation and Transmission of Cellular Signals"
+					"title": "Novel therapeutic options for human diseases"
 				}
 			]
 		},
@@ -350,9 +350,9 @@
 			"columns": [
 				{
 					"@type": "image",
-					"alt": "Image 4",
-					"id": "d3cd9645-735a-453f-9d05-b95eccd61db9",
-					"url": "/examples/image-4"
+					"alt": "Image 6",
+					"id": "2f01112a-cd36-4cde-9c11-85da412494d4",
+					"url": "/examples/image-6"
 				},
 				{
 					"@type": "slate",
