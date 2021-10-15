@@ -270,48 +270,52 @@ def create_root_homepage(context, default_home=None):
         )
     else:
         blocks = {
-            "07c273fc-8bfc-4e7d-a327-d513e5a945bb": {"@type": "title"},
-            "4ec81e29-5718-41f7-9d46-309f1144d096": {
+            "07c273fc-8bfc-4e7d-a327-d513e5a945bb": {
+                "@type": "title"
+            },
+            "5ce1de1b-ccb9-4b2e-84fd-ca0f71decfd5": {
                 "@type": "slate",
-                "plaintext": " Plone 6 is the first CMS on the market that combines the power features, best-in-class security, and scalability of an enterprise CMS with a state-of-the-art JavaScript frontend and an easy-to-use user interface that gives editors full control over the composition of pages. ",
+                "plaintext": "Plone 6 is the first CMS on the market that combines the power features, best-in-class security, and scalability of an enterprise CMS with a state-of-the-art JavaScript frontend and an easy-to-use user interface that gives editors full control over the composition of pages.",
                 "value": [
                     {
                         "children": [
-                            {"text": ""},
                             {
-                                "children": [
-                                    {
-                                        "text": "Plone 6 is the first CMS on the market that combines the power features, best-in-class security, and scalability of an enterprise CMS with a state-of-the-art JavaScript frontend and an easy-to-use user interface that gives editors full control over the composition of pages."
-                                    }
-                                ],
-                                "type": "strong",
-                            },
-                            {"text": ""},
+                                "text": "Plone 6 is the first CMS on the market that combines the power features, best-in-class security, and scalability of an enterprise CMS with a state-of-the-art JavaScript frontend and an easy-to-use user interface that gives editors full control over the composition of pages."
+                            }
                         ],
-                        "type": "p",
+                        "type": "p"
                     }
-                ],
+                ]
             },
-            "16b64850-1cb1-4843-95fc-8b7fe6e74e09": {
+            "ba20f545-df1e-4cf7-9b49-822b4c354cdf": {
                 "@type": "slate",
                 "plaintext": "Empowering Editors",
-                "value": [{"children": [{"text": "Empowering Editors"}], "type": "h2"}],
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Empowering Editors"
+                            }
+                        ],
+                        "type": "h2"
+                    }
+                ]
             },
-            "6d0872d4-5b73-455b-ac4f-1495225b7f52": {
+            "f93e1aad-38e7-468b-80ff-437b74bb9a68": {
                 "@type": "slate",
                 "plaintext": "Plone 6 is built from the ground up to empower both seasonal and frequent editors to create modern web layouts that automatically adapt to any device.",
                 "value": [
                     {
                         "children": [
                             {
-                                "text": "Plone 6 is built from the ground up to empower both seasonal and frequent editors to create modern web layouts that automatically adapt to any device. "
+                                "text": "Plone 6 is built from the ground up to empower both seasonal and frequent editors to create modern web layouts that automatically adapt to any device."
                             }
                         ],
-                        "type": "p",
+                        "type": "p"
                     }
-                ],
+                ]
             },
-            "82dcb6d4-3fe1-4378-bc18-2eb6fd652d41": {
+            "90d6d46f-f9d1-4ffd-a355-8317794aae75": {
                 "@type": "slate",
                 "plaintext": "The new blocks engine allows editors to build sophisticated page layouts in no time, without the need for any in-depth knowledge of the underlying web technologies.",
                 "value": [
@@ -321,23 +325,25 @@ def create_root_homepage(context, default_home=None):
                                 "text": "The new blocks engine allows editors to build sophisticated page layouts in no time, without the need for any in-depth knowledge of the underlying web technologies."
                             }
                         ],
-                        "type": "p",
+                        "type": "p"
                     }
-                ],
+                ]
             },
-            "77947dbc-7085-413d-bafd-2f212c23f847": {
+            "278c3d84-ec55-404d-8037-d3d2cd6229e2": {
                 "@type": "slate",
                 "plaintext": "No Code Content Types, Forms, and Faceted Search",
                 "value": [
                     {
                         "children": [
-                            {"text": "No Code Content Types, Forms, and Faceted Search"}
+                            {
+                                "text": "No Code Content Types, Forms, and Faceted Search"
+                            }
                         ],
-                        "type": "h2",
+                        "type": "h2"
                     }
-                ],
+                ]
             },
-            "786df958-6209-46fb-90e9-7ef1349ba74a": {
+            "1e10e2c1-5f68-4ce3-96b4-542ada4798c1": {
                 "@type": "slate",
                 "plaintext": "Plone 6 allows creating new content types through the web without the need to write code. Editors can define templates through the web to control the layout of content types.",
                 "value": [
@@ -347,11 +353,11 @@ def create_root_homepage(context, default_home=None):
                                 "text": "Plone 6 allows creating new content types through the web without the need to write code. Editors can define templates through the web to control the layout of content types."
                             }
                         ],
-                        "type": "p",
+                        "type": "p"
                     }
-                ],
+                ]
             },
-            "4fbebd18-0d13-466a-a65b-43fb885a89e7": {
+            "7a7d8c76-fcf0-4602-bb56-1a77c8e6bf31": {
                 "@type": "slate",
                 "plaintext": "Creating forms and sophisticated faceted search user interfaces are possible entirely through the web and become a no-brainer with Plone 6.",
                 "value": [
@@ -361,37 +367,117 @@ def create_root_homepage(context, default_home=None):
                                 "text": "Creating forms and sophisticated faceted search user interfaces are possible entirely through the web and become a no-brainer with Plone 6."
                             }
                         ],
-                        "type": "p",
+                        "type": "p"
                     }
-                ],
+                ]
             },
-            "22ff9890-5d07-4786-ad16-10ca39cb7cd5": {
+            "0b30dc27-b4ca-4994-9574-bc4bbcf0a1b5": {
                 "@type": "slate",
                 "plaintext": "Ready for Prime Time",
-                "value": [
-                    {"children": [{"text": "Ready for Prime Time"}], "type": "h2"}
-                ],
-            },
-            "10eca87d-78cb-4cb0-a8c5-cd1a495b2206": {
-                "@type": "slate",
-                "plaintext": "Plone 6 comes with a rich ecosystem of more than 100 add-on products. The new software stack that powers Plone 6 (Volto, REST API, Plone Backend) has been used in production for more than four years. Plone 6 already powers high-profile government websites, university websites, and intranets around the globe today.´",
                 "value": [
                     {
                         "children": [
                             {
-                                "text": "Plone 6 comes with a rich ecosystem of more than 100 add-on products. The new software stack that powers Plone 6 (Volto, REST API, Plone Backend) has been used in production for more than four years. Plone 6 already powers high-profile government websites, university websites, and intranets around the globe today.´"
+                                "text": "Ready for Prime Time"
                             }
                         ],
-                        "type": "p",
+                        "type": "h2"
                     }
-                ],
+                ]
             },
-            "627f0450-9e58-44db-b626-d4de6530d0cb": {
+            "63430da8-1690-4c42-b579-b829fa4014c9": {
+                "@type": "slate",
+                "plaintext": "Plone 6 comes with a rich ecosystem of more than 100 add-on products. The new software stack that powers Plone 6 (Volto, REST API, Plone Backend) has been used in production for more than four years. Plone 6 already powers high-profile government websites, university websites, and intranets around the globe today.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Plone 6 comes with a rich ecosystem of more than 100 add-on products. The new software stack that powers Plone 6 (Volto, REST API, Plone Backend) has been used in production for more than four years. Plone 6 already powers high-profile government websites, university websites, and intranets around the globe today."
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            },
+            "788154eb-876e-497b-94d8-17c28ecb61c0": {
+                "@type": "__grid",
+                "columns": [
+                    {
+                        "@type": "teaser",
+                        "href": [
+                            {
+                                "@id": "/showcase/exzellenz-an-der-humboldt-universitaet-zu-berlin",
+                                "Description": "",
+                                "Title": "Exzellenz an der Humboldt-Universität zu Berlin",
+                                "hasPreviewImage": True,
+                                "title": "Exzellenz an der Humboldt-Universität zu Berlin"
+                            }
+                        ],
+                        "id": "73bbe6ef-b7c3-40de-9c40-2f3d3cc760d9",
+                        "title": "Excellence at Humboldt-Universität zu Berlin"
+                    },
+                    {
+                        "@type": "teaser",
+                        "description": "",
+                        "href": [
+                            {
+                                "@id": "/showcase/humboldt-labor",
+                                "Description": "",
+                                "Title": "Humboldt Labor",
+                                "hasPreviewImage": True,
+                                "title": "Humboldt Labor"
+                            }
+                        ],
+                        "id": "eba7c82a-0960-4e09-a9ba-57ab10a7ac93",
+                        "title": "Humboldt Labor"
+                    },
+                    {
+                        "@type": "teaser",
+                        "description": "",
+                        "href": [
+                            {
+                                "@id": "/showcase/osaka-university",
+                                "Description": "",
+                                "Title": "Osaka University",
+                                "hasPreviewImage": True,
+                                "title": "Osaka University"
+                            }
+                        ],
+                        "id": "cdc4f524-e52f-4be0-9a3d-82f0e9b997ce",
+                        "title": "Osaka University"
+                    },
+                    {
+                        "@type": "teaser",
+                        "description": "",
+                        "href": [
+                            {
+                                "@id": "/showcase/vhs-ehrenamtsportal",
+                                "Description": "",
+                                "Title": "VHS Ehrenamtsportal",
+                                "hasPreviewImage": True,
+                                "title": "VHS Ehrenamtsportal"
+                            }
+                        ],
+                        "id": "3d40b807-1c58-4ed5-9cb9-d6e7d76f4d7d",
+                        "title": "VHS Ehrenamtsportal"
+                    }
+                ]
+            },
+            "2368c240-27cf-4b4d-9904-2a651f8858a9": {
                 "@type": "slate",
                 "plaintext": "Ready When You Are",
-                "value": [{"children": [{"text": "Ready When You Are"}], "type": "h2"}],
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Ready When You Are"
+                            }
+                        ],
+                        "type": "h2"
+                    }
+                ]
             },
-            "8e4dbd99-08ef-4dfb-a3e3-b1f1e005ede4": {
+            "f3f3123e-8b93-4586-a9a1-f21cf5dfde0f": {
                 "@type": "slate",
                 "plaintext": "Plone 6 will continue to be shipped with a modernized version of the Plone “Classic” user interface. Plone 6 will be a Long Term Support (LTS) release with an extended support period. This will give you all the time you need to adapt your existing Plone site to the new world of Plone 6 if you are not ready yet.",
                 "value": [
@@ -401,31 +487,41 @@ def create_root_homepage(context, default_home=None):
                                 "text": "Plone 6 will continue to be shipped with a modernized version of the Plone “Classic” user interface. Plone 6 will be a Long Term Support (LTS) release with an extended support period. This will give you all the time you need to adapt your existing Plone site to the new world of Plone 6 if you are not ready yet."
                             }
                         ],
-                        "type": "p",
+                        "type": "p"
                     }
-                ],
+                ]
             },
-            "41663271-68b9-4d5e-80b0-3b3def2ca01e": {
+            "7b4c7e43-9056-4775-bbb4-244d888fdee5": {
                 "@type": "slate",
                 "plaintext": "",
-                "value": [{"children": [{"text": "\n"}], "type": "p"}],
-            },
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "\n"
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            }
         }
         blocks_layout = {
             "items": [
                 "07c273fc-8bfc-4e7d-a327-d513e5a945bb",
-                "4ec81e29-5718-41f7-9d46-309f1144d096",
-                "16b64850-1cb1-4843-95fc-8b7fe6e74e09",
-                "6d0872d4-5b73-455b-ac4f-1495225b7f52",
-                "82dcb6d4-3fe1-4378-bc18-2eb6fd652d41",
-                "77947dbc-7085-413d-bafd-2f212c23f847",
-                "786df958-6209-46fb-90e9-7ef1349ba74a",
-                "4fbebd18-0d13-466a-a65b-43fb885a89e7",
-                "22ff9890-5d07-4786-ad16-10ca39cb7cd5",
-                "10eca87d-78cb-4cb0-a8c5-cd1a495b2206",
-                "627f0450-9e58-44db-b626-d4de6530d0cb",
-                "8e4dbd99-08ef-4dfb-a3e3-b1f1e005ede4",
-                "41663271-68b9-4d5e-80b0-3b3def2ca01e",
+                "5ce1de1b-ccb9-4b2e-84fd-ca0f71decfd5",
+                "ba20f545-df1e-4cf7-9b49-822b4c354cdf",
+                "f93e1aad-38e7-468b-80ff-437b74bb9a68",
+                "90d6d46f-f9d1-4ffd-a355-8317794aae75",
+                "278c3d84-ec55-404d-8037-d3d2cd6229e2",
+                "1e10e2c1-5f68-4ce3-96b4-542ada4798c1",
+                "7a7d8c76-fcf0-4602-bb56-1a77c8e6bf31",
+                "0b30dc27-b4ca-4994-9574-bc4bbcf0a1b5",
+                "63430da8-1690-4c42-b579-b829fa4014c9",
+                "788154eb-876e-497b-94d8-17c28ecb61c0",
+                "2368c240-27cf-4b4d-9904-2a651f8858a9",
+                "f3f3123e-8b93-4586-a9a1-f21cf5dfde0f",
+                "7b4c7e43-9056-4775-bbb4-244d888fdee5"
             ]
         }
 
