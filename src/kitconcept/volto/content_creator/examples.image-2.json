@@ -6,5 +6,6 @@
     "set_local_image": {
       "image": "image-2.jpg"
     },
+    "rights": "Photo by Uriel SC on Unsplash: https://unsplash.com/photos/11KDtiUWRq4",
     "subjects": ["content-type"]
   }
