@@ -32,13 +32,13 @@
       />
 
   <genericsetup:registerProfile
-    name="content"
-    title="Example Content"
-    directory="profiles/content"
-    description="Create a Plone site with example content"
-    provides="Products.GenericSetup.interfaces.EXTENSION"
-    post_handler=".setuphandlers.import_example_content"
-    />
+      name="content"
+      title="Example Content"
+      description="Create a Plone site with example content"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/content"
+      post_handler=".setuphandlers.import_example_content"
+      />
 
   <genericsetup:registerProfile
       name="uninstall"

@@ -1,0 +1,11 @@
+{
+    "@type": "Image",
+    "title": "Image 1",
+    "description": "",
+    "review_state": "published",
+    "set_local_image": {
+      "image": "image-1.jpg"
+    },
+    "rights": "Photo by National Cancer Institute on Unsplash https://unsplash.com/photos/zz_3tCcrk7o",
+    "subjects": ["content-type"]
+  }

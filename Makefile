@@ -67,8 +67,15 @@ code-analysis:  ## Code Analysis
 
 .PHONY: Black
 black:  ## Black
-	bin/code-analysis
-	if [ -f "bin/black" ]; then bin/black src/ ; fi
+	if [ -f "bin/black" ]; then bin/black src/ setup.py; fi
+
+.PHONY: Flake 8
+flake8:  ## Flake 8
+	if [ -f "bin/flake8" ]; then bin/flake8 src/ setup.py; fi
+
+.PHONY: zpretty
+zpretty:  ## zpretty
+	if [ -f "bin/zpretty" ]; then find src/ -name *.zcml | xargs bin/zpretty -i; fi
 
 .PHONY: Build Docs
 docs:  ## Build Docs
