@@ -267,299 +267,216 @@ def create_root_homepage(context, default_home=None):
         blocks = default_home["blocks"]
         blocks_layout = default_home["blocks_layout"]
         portal.setTitle(default_home["title"])
-        portal.setDescription(default_home["description"])
+        # portal.setDescription(default_home["description"])
 
         logger.info(
             "Creating custom default homepage in Plone site root - not PAM enabled"
         )
     else:
         blocks = {
-            "0358abe2-b4f1-463d-a279-a63ea80daf19": {"@type": "description"},
-            "07c273fc-8bfc-4e7d-a327-d513e5a945bb": {"@type": "title"},
-            "2dfe8e4c-5bf6-43f1-93e1-6c320ede7226": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [],
-                            "inlineStyleRanges": [
-                                {"length": 10, "offset": 0, "style": "BOLD"}
-                            ],
-                            "key": "6470b",
-                            "text": "Disclaimer: This instance is reset every night, so all changes will be lost afterwards.",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {},
-                },
+            "07c273fc-8bfc-4e7d-a327-d513e5a945bb": {
+                "@type": "title"
             },
-            "3c881f51-f75b-4959-834a-6e1d5edc32ae": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [],
-                            "inlineStyleRanges": [
-                                {"length": 5, "offset": 6, "style": "BOLD"}
-                            ],
-                            "key": "ekn3l",
-                            "text": "user: admin",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {},
-                },
-            },
-            "5e1c30b1-ec6c-4dc0-9483-9768c3c416e4": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [
-                                {"key": 0, "length": 5, "offset": 0},
-                                {"key": 1, "length": 8, "offset": 455},
-                            ],
-                            "inlineStyleRanges": [],
-                            "key": "behki",
-                            "text": "Plone is a CMS built on Python with over 19 years of experience. Plone has very interesting features that appeal to developers and users alike, such as customizable content types, hierarchical URL object traversing and a sophisticated content workflow powered by a granular permissions model. This allows you to build anything from simple websites to enterprise-grade intranets. Volto exposes all these features and communicates with Plone via its mature REST API. Volto can be esily themed and is highly customizable.",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {
-                        "0": {
-                            "data": {
-                                "href": "https://plone.org",
-                                "rel": "nofollow",
-                                "url": "https://plone.org/",
+            "4ec81e29-5718-41f7-9d46-309f1144d096": {
+                "@type": "slate",
+                "plaintext": " Plone 6 is the first CMS on the market that combines the power features, best-in-class security, and scalability of an enterprise CMS with a state-of-the-art JavaScript frontend and an easy-to-use user interface that gives editors full control over the composition of pages. ",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": ""
                             },
-                            "mutability": "MUTABLE",
-                            "type": "LINK",
-                        },
-                        "1": {
-                            "data": {
-                                "href": "https://github.com/plone/plone.restapi",
-                                "url": "https://github.com/plone/plone.restapi",
+                            {
+                                "children": [
+                                    {
+                                        "text": "Plone 6 is the first CMS on the market that combines the power features, best-in-class security, and scalability of an enterprise CMS with a state-of-the-art JavaScript frontend and an easy-to-use user interface that gives editors full control over the composition of pages."
+                                    }
+                                ],
+                                "type": "strong"
                             },
-                            "mutability": "MUTABLE",
-                            "type": "LINK",
-                        },
-                    },
-                },
+                            {
+                                "text": ""
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
             },
-            "61cc1bc0-d4f5-4e2b-9152-79512045a4dd": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [],
-                            "inlineStyleRanges": [],
-                            "key": "9qsa4",
-                            "text": "Demo",
-                            "type": "header-two",
-                        }
-                    ],
-                    "entityMap": {},
-                },
+            "16b64850-1cb1-4843-95fc-8b7fe6e74e09": {
+                "@type": "slate",
+                "plaintext": "Empowering Editors",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Empowering Editors"
+                            }
+                        ],
+                        "type": "h2"
+                    }
+                ]
             },
-            "874049e7-629e-489a-b46c-1adf35ad40ee": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [],
-                            "inlineStyleRanges": [],
-                            "key": "9pnjr",
-                            "text": "Happy hacking!",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {},
-                },
+            "6d0872d4-5b73-455b-ac4f-1495225b7f52": {
+                "@type": "slate",
+                "plaintext": "Plone 6 is built from the ground up to empower both seasonal and frequent editors to create modern web layouts that automatically adapt to any device.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Plone 6 is built from the ground up to empower both seasonal and frequent editors to create modern web layouts that automatically adapt to any device. "
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
             },
-            "942b6530-2407-420f-9c24-597adda6b2ce": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [{"key": 0, "length": 36, "offset": 39}],
-                            "inlineStyleRanges": [],
-                            "key": "6a248",
-                            "text": "Last but not least, it also supports a Volto Nodejs-based backend reference API implementation that demos how other systems could also use Volto to display and create content through it.",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {
-                        "0": {
-                            "data": {
-                                "href": "https://github.com/plone/volto-reference-backend",
-                                "url": "https://github.com/plone/volto-reference-backend",
-                            },
-                            "mutability": "MUTABLE",
-                            "type": "LINK",
-                        }
-                    },
-                },
+            "82dcb6d4-3fe1-4378-bc18-2eb6fd652d41": {
+                "@type": "slate",
+                "plaintext": "The new blocks engine allows editors to build sophisticated page layouts in no time, without the need for any in-depth knowledge of the underlying web technologies.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "The new blocks engine allows editors to build sophisticated page layouts in no time, without the need for any in-depth knowledge of the underlying web technologies."
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
             },
-            "9a976b8e-72ba-468a-bea8-b37a31bb386b": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [],
-                            "inlineStyleRanges": [
-                                {"length": 12, "offset": 51, "style": "BOLD"}
-                            ],
-                            "key": "94arl",
-                            "text": "You can log in and use it as admin user using these credentials:",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {},
-                },
+            "77947dbc-7085-413d-bafd-2f212c23f847": {
+                "@type": "slate",
+                "plaintext": "No Code Content Types, Forms, and Faceted Search",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "No Code Content Types, Forms, and Faceted Search"
+                            }
+                        ],
+                        "type": "h2"
+                    }
+                ]
             },
-            "b3717238-448f-406e-b06f-57a9715c3326": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [{"key": 0, "length": 5, "offset": 0}],
-                            "inlineStyleRanges": [],
-                            "key": "1bnna",
-                            "text": "Volto is a React-based frontend for content management systems, currently supporting three backend implementations: Plone, Guillotina and a NodeJS reference implementation.",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {
-                        "0": {
-                            "data": {
-                                "href": "https://github.com/plone/volto",
-                                "url": "https://github.com/plone/volto",
-                            },
-                            "mutability": "MUTABLE",
-                            "type": "LINK",
-                        }
-                    },
-                },
+            "786df958-6209-46fb-90e9-7ef1349ba74a": {
+                "@type": "slate",
+                "plaintext": "Plone 6 allows creating new content types through the web without the need to write code. Editors can define templates through the web to control the layout of content types.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Plone 6 allows creating new content types through the web without the need to write code. Editors can define templates through the web to control the layout of content types."
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
             },
-            "c049ff8b-3e5a-4cfb-bca6-e4a6cca9be28": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [],
-                            "inlineStyleRanges": [],
-                            "key": "55n44",
-                            "text": "You can use this site to test Volto. It runs on the master branch of Volto using latest Plone 5.2 Backend running on Python 3.",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {},
-                },
+            "4fbebd18-0d13-466a-a65b-43fb885a89e7": {
+                "@type": "slate",
+                "plaintext": "Creating forms and sophisticated faceted search user interfaces are possible entirely through the web and become a no-brainer with Plone 6.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Creating forms and sophisticated faceted search user interfaces are possible entirely through the web and become a no-brainer with Plone 6."
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
             },
-            "c91f0fe9-f2e9-4a17-84a5-8e4f2678ed3c": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [],
-                            "inlineStyleRanges": [
-                                {"length": 5, "offset": 10, "style": "BOLD"}
-                            ],
-                            "key": "buncq",
-                            "text": "password: admin",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {},
-                },
+            "22ff9890-5d07-4786-ad16-10ca39cb7cd5": {
+                "@type": "slate",
+                "plaintext": "Ready for Prime Time",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Ready for Prime Time"
+                            }
+                        ],
+                        "type": "h2"
+                    }
+                ]
             },
-            "e0ca2fbc-7800-4b9b-afe5-8e42af9f5dd6": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [],
-                            "inlineStyleRanges": [],
-                            "key": "f0prj",
-                            "text": "2020 - Volto Team - Plone Foundation",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {},
-                },
+            "10eca87d-78cb-4cb0-a8c5-cd1a495b2206": {
+                "@type": "slate",
+                "plaintext": "Plone 6 comes with a rich ecosystem of more than 100 add-on products. The new software stack that powers Plone 6 (Volto, REST API, Plone Backend) has been used in production for more than four years. Plone 6 already powers high-profile government websites, university websites, and intranets around the globe today.´",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Plone 6 comes with a rich ecosystem of more than 100 add-on products. The new software stack that powers Plone 6 (Volto, REST API, Plone Backend) has been used in production for more than four years. Plone 6 already powers high-profile government websites, university websites, and intranets around the globe today.´"
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
             },
-            "effbdcdc-253c-41a7-841e-5edb3b56ce32": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [{"key": 0, "length": 10, "offset": 36}],
-                            "inlineStyleRanges": [],
-                            "key": "68rve",
-                            "text": "Volto also supports other APIs like Guillotina, a Python resource management system, inspired by Plone and using the same basic concepts like traversal, content types and permissions model.",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {
-                        "0": {
-                            "data": {
-                                "href": "https://guillotina.io/",
-                                "rel": "nofollow",
-                                "url": "https://guillotina.io/",
-                            },
-                            "mutability": "MUTABLE",
-                            "type": "LINK",
-                        }
-                    },
-                },
+            "627f0450-9e58-44db-b626-d4de6530d0cb": {
+                "@type": "slate",
+                "plaintext": "Ready When You Are",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Ready When You Are"
+                            }
+                        ],
+                        "type": "h2"
+                    }
+                ]
             },
+            "8e4dbd99-08ef-4dfb-a3e3-b1f1e005ede4": {
+                "@type": "slate",
+                "plaintext": "Plone 6 will continue to be shipped with a modernized version of the Plone “Classic” user interface. Plone 6 will be a Long Term Support (LTS) release with an extended support period. This will give you all the time you need to adapt your existing Plone site to the new world of Plone 6 if you are not ready yet.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Plone 6 will continue to be shipped with a modernized version of the Plone “Classic” user interface. Plone 6 will be a Long Term Support (LTS) release with an extended support period. This will give you all the time you need to adapt your existing Plone site to the new world of Plone 6 if you are not ready yet."
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            },
+            "41663271-68b9-4d5e-80b0-3b3def2ca01e": {
+                "@type": "slate",
+                "plaintext": "",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "\n"
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            }
         }
-
         blocks_layout = {
             "items": [
                 "07c273fc-8bfc-4e7d-a327-d513e5a945bb",
-                "0358abe2-b4f1-463d-a279-a63ea80daf19",
-                "b3717238-448f-406e-b06f-57a9715c3326",
-                "5e1c30b1-ec6c-4dc0-9483-9768c3c416e4",
-                "effbdcdc-253c-41a7-841e-5edb3b56ce32",
-                "942b6530-2407-420f-9c24-597adda6b2ce",
-                "61cc1bc0-d4f5-4e2b-9152-79512045a4dd",
-                "c049ff8b-3e5a-4cfb-bca6-e4a6cca9be28",
-                "9a976b8e-72ba-468a-bea8-b37a31bb386b",
-                "3c881f51-f75b-4959-834a-6e1d5edc32ae",
-                "c91f0fe9-f2e9-4a17-84a5-8e4f2678ed3c",
-                "2dfe8e4c-5bf6-43f1-93e1-6c320ede7226",
-                "874049e7-629e-489a-b46c-1adf35ad40ee",
-                "e0ca2fbc-7800-4b9b-afe5-8e42af9f5dd6",
+                "4ec81e29-5718-41f7-9d46-309f1144d096",
+                "16b64850-1cb1-4843-95fc-8b7fe6e74e09",
+                "6d0872d4-5b73-455b-ac4f-1495225b7f52",
+                "82dcb6d4-3fe1-4378-bc18-2eb6fd652d41",
+                "77947dbc-7085-413d-bafd-2f212c23f847",
+                "786df958-6209-46fb-90e9-7ef1349ba74a",
+                "4fbebd18-0d13-466a-a65b-43fb885a89e7",
+                "22ff9890-5d07-4786-ad16-10ca39cb7cd5",
+                "10eca87d-78cb-4cb0-a8c5-cd1a495b2206",
+                "627f0450-9e58-44db-b626-d4de6530d0cb",
+                "8e4dbd99-08ef-4dfb-a3e3-b1f1e005ede4",
+                "41663271-68b9-4d5e-80b0-3b3def2ca01e"
             ]
         }
 
-        portal.setTitle("Welcome to Volto!")
-        portal.setDescription("The React powered content management system")
+        portal.setTitle("Welcome to Plone 6!")
+        portal.setDescription("Plone 6 is the first CMS on the market that combines enterprise features with a modern, user-friendly, state-of-the-art JavaScript frontend.")
 
         logger.info("Creating default homepage in Plone site root - not PAM enabled")
 
