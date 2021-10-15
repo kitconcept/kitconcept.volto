@@ -1,4 +1,9 @@
-# -*- coding: utf-8 -*-
+import json
+import logging
+import os
+
+import transaction
+from kitconcept.contentcreator.creator import content_creator_from_folder
 from plone import api
 from plone.app.multilingual.browser.setup import SetupMultilingualSite
 from plone.app.multilingual.setuphandlers import enable_translatable_behavior
@@ -17,18 +22,11 @@ from zope.component.interfaces import IFactory
 from zope.container.interfaces import INameChooser
 from zope.interface import implementer
 
-from kitconcept.contentcreator.creator import content_creator_from_folder
-
-import json
-import logging
-import transaction
-import os
-
 logger = logging.getLogger("kitconcept.volto")
 
 
 @implementer(INonInstallable)
-class HiddenProfiles(object):
+class HiddenProfiles:
     def getNonInstallableProfiles(self):
         """Hide uninstall profile from site-creation and quickinstaller"""
         return ["kitconcept.volto:uninstall"]
@@ -241,7 +239,7 @@ def create_default_homepage(context, default_home=default_lrf_home):
                 or getattr(portal[lang], "blocks_layout", {}).get("items") == []
             ):
                 logger.info(
-                    "Creating default homepage for {} - PAM enabled".format(lang)
+                    f"Creating default homepage for {lang} - PAM enabled"
                 )
                 portal[lang].blocks = default_home["blocks"]
                 portal[lang].blocks_layout = default_home["blocks_layout"]
@@ -452,6 +450,12 @@ def create_root_homepage(context, default_home=None):
 
 def import_example_content(context):
     portal = api.portal.get()
+
+    if "news" in portal.objectIds():
+        api.content.delete(obj=portal["news"])
+
+    if "events" in portal.objectIds():
+        api.content.delete(obj=portal["events"])
 
     # enable content non-globally addable types just for initial content
     # creation
