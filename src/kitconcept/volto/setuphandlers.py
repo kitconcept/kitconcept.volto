@@ -238,9 +238,7 @@ def create_default_homepage(context, default_home=default_lrf_home):
                 getattr(portal[lang], "blocks_layout", {}).get("items") is None
                 or getattr(portal[lang], "blocks_layout", {}).get("items") == []
             ):
-                logger.info(
-                    f"Creating default homepage for {lang} - PAM enabled"
-                )
+                logger.info(f"Creating default homepage for {lang} - PAM enabled")
                 portal[lang].blocks = default_home["blocks"]
                 portal[lang].blocks_layout = default_home["blocks_layout"]
 
@@ -456,6 +454,9 @@ def import_example_content(context):
 
     if "events" in portal.objectIds():
         api.content.delete(obj=portal["events"])
+
+    if "Members" in portal.objectIds():
+        api.content.delete(obj=portal["Members"])
 
     # enable content non-globally addable types just for initial content
     # creation
