@@ -1,0 +1,10 @@
+{
+    "@type": "Image",
+    "title": "Image 4",
+    "description": "",
+    "review_state": "published",
+    "set_local_image": {
+      "image": "image-4.jpg"
+    },
+    "subjects": ["content-type"]
+  }

@@ -1,0 +1,147 @@
+{
+  "@type": "Document",
+  "blocks": {
+    "d3f1c443-583f-4e8e-a682-3bf25752a300": {
+      "@type": "title"
+    },
+    "ba076661-72f2-48c8-aaa6-b054f40b6c85": {
+      "@type": "__grid",
+      "columns": [
+        {
+          "@type": "teaser",
+          "description": "The simulation of complex systems in natural science or engineering depends on the development of adequate mathematical models. Thus the development of realistic and yet efficient models is one of our core activities.",
+          "href": [
+            {
+              "@id": "/examples/page-1",
+              "Description": "The simulation of complex systems in natural science or engineering depends on the development of adequate mathematical models. Thus the development of realistic and yet efficient models is one of our core activities.",
+              "Title": "Modelling and Simulation",
+              "hasPreviewImage": true,
+              "head_title": null,
+              "title": "Modelling and Simulation"
+            }
+          ],
+          "id": "c5c96fcd-88fb-4285-861f-cca4a5e8d2b3",
+          "title": "Modelling and Simulation"
+        },
+        {
+          "@type": "teaser",
+          "description": "Efficient simulations need powerful algorithms and methods.",
+          "href": [
+            {
+              "@id": "/examples/page-2",
+              "Description": "Efficient simulations need powerful algorithms and methods.",
+              "Title": "Algorithms and Methods",
+              "hasPreviewImage": true,
+              "head_title": null,
+              "title": "Algorithms and Methods"
+            }
+          ],
+          "id": "40257901-1d26-4e8d-a113-ebe15a913a34",
+          "title": "Algorithms and Methods"
+        }
+      ]
+    },
+    "19d511fc-34bc-4c47-b2a7-457205ecf290": {
+      "@type": "__grid",
+      "columns": [
+        {
+          "@type": "teaser",
+          "description": "Through research on resource and data management, workflows, virtualisation, and security we foster the easy and secure access to distributed systems and data that builds the foundation for the exploitation of results across scientific domains.",
+          "href": [
+            {
+              "@id": "/examples/page-3",
+              "Description": "Through research on resource and data management, workflows, virtualisation, and security we foster the easy and secure access to distributed systems and data that builds the foundation for the exploitation of results across scientific domains.",
+              "Title": "Distributed Computing",
+              "hasPreviewImage": true,
+              "head_title": null,
+              "title": "Distributed Computing"
+            }
+          ],
+          "id": "09a8776d-5e16-498a-b15d-d00393940eb8",
+          "title": "Distributed Computing"
+        },
+        {
+          "@type": "teaser",
+          "description": "In the human disease retinitis pigmentosa the photoreceptors degenerate, leading to blindness. Electrical prostheses can elicit visual sensations in patients; however, processes secondary to photoreceptor death lead to pathological rhythmic activity in the remaining retinal network that seems to interfere with this therapeutic approach.",
+          "href": [
+            {
+              "@id": "/examples/page-4",
+              "Description": "In the human disease retinitis pigmentosa the photoreceptors degenerate, leading to blindness. Electrical prostheses can elicit visual sensations in patients; however, processes secondary to photoreceptor death lead to pathological rhythmic activity in the remaining retinal network that seems to interfere with this therapeutic approach.",
+              "Title": "Novel therapeutic options for human diseases",
+              "hasPreviewImage": true,
+              "head_title": null,
+              "title": "Novel therapeutic options for human diseases"
+            }
+          ],
+          "id": "05cccc61-9045-4ae1-b02a-18d1af518af2",
+          "title": "Novel therapeutic options for human diseases"
+        },
+        {
+          "@type": "teaser",
+          "description": "Monogenetic diseases provide a direct link between a change in protein function to cell and organ dysfunction. Studying monogenetic diseases often permits identification of cellular roles of ion channels. Moreover, disease-causing mutations usually affect important functions of the affected proteins, and analysis of the functional consequences of such mutations thus provides novel insights into the molecular determinants of protein functions.",
+          "href": [
+            {
+              "@id": "/examples/page-5",
+              "Description": "Monogenetic diseases provide a direct link between a change in protein function to cell and organ dysfunction. Studying monogenetic diseases often permits identification of cellular roles of ion channels. Moreover, disease-causing mutations usually affect important functions of the affected proteins, and analysis of the functional consequences of such mutations thus provides novel insights into the molecular determinants of protein functions.",
+              "Title": "Pathomechanisms of human diseases",
+              "hasPreviewImage": true,
+              "head_title": null,
+              "title": "Pathomechanisms of human diseases"
+            }
+          ],
+          "id": "d3947952-3897-4c66-939c-e1ef69aa9b14",
+          "title": "Pathomechanisms of human diseases"
+        }
+      ]
+    },
+    "1916b08c-5f41-434f-8c8b-f2f576296153": {
+      "@type": "__grid",
+      "columns": [
+        {
+          "@type": "teaser",
+          "description": "Information processing in the central nervous system relies on the precise interplay of electrical and chemical signals. Action potential generation, propagation, and the initiating events causing transmitter release from the synaptic terminus are determined by the activity of a variety of ion channels. The transfer of information between neurons and target cells is achieved by chemical transmitter substances crossing the synaptic cleft. Neurotransmitter are accumulated in presynaptic vesicles whose fusion with the cell membrane results in neurotransmitter release.",
+          "href": [
+            {
+              "@id": "/examples/page-6",
+              "Description": "Information processing in the central nervous system relies on the precise interplay of electrical and chemical signals. Action potential generation, propagation, and the initiating events causing transmitter release from the synaptic terminus are determined by the activity of a variety of ion channels. The transfer of information between neurons and target cells is achieved by chemical transmitter substances crossing the synaptic cleft. Neurotransmitter are accumulated in presynaptic vesicles whose fusion with the cell membrane results in neurotransmitter release.",
+              "Title": "Generation, propagation and transmission of cellular signals",
+              "hasPreviewImage": true,
+              "head_title": null,
+              "title": "Generation, propagation and transmission of cellular signals"
+            }
+          ],
+          "id": "0fd5ce6a-5023-4504-abda-7c6c50aafe60",
+          "title": "Generation, propagation and transmission of cellular signals"
+        }
+      ]
+    },
+    "7624cf59-05d0-4055-8f55-5fd6597d84b0": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "d3f1c443-583f-4e8e-a682-3bf25752a300",
+      "ba076661-72f2-48c8-aaa6-b054f40b6c85",
+      "19d511fc-34bc-4c47-b2a7-457205ecf290",
+      "1916b08c-5f41-434f-8c8b-f2f576296153",
+      "7624cf59-05d0-4055-8f55-5fd6597d84b0"
+    ]
+  },
+  "id": "grid",
+  "title": "Grid",
+  "description": "",
+  "review_state": "published",
+  "subjects": []
+}

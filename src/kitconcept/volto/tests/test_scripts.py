@@ -31,10 +31,7 @@ class TestBlocksTransforms(unittest.TestCase):
         behavior_list.append("volto.blocks")
         fti.behaviors = tuple(behavior_list)
 
-        self.portal.invokeFactory(
-            "Document",
-            id=u"doc1",
-        )
+        self.portal.invokeFactory("Document", id=u"doc1")
         self.doc1 = self.portal["doc1"]
         self.image = self.portal[
             self.portal.invokeFactory("Image", id="image1", title="Target image")
@@ -244,14 +241,13 @@ class TestBlocksTransforms(unittest.TestCase):
                 "alt": "Bild 3",
                 "size": "l",
                 "url": "{}".format(self.image.absolute_url()),
-            },
+            }
         }
 
         result = string_url_replace_server(blocks, self.portal.absolute_url(), "")
 
         self.assertEqual(
-            result["7bad5afd-ea6a-472a-a521-452810e1d286"]["url"],
-            "/image1",
+            result["7bad5afd-ea6a-472a-a521-452810e1d286"]["url"], "/image1"
         )
 
         blocks = {
@@ -395,9 +391,7 @@ class TestBlocksTransforms(unittest.TestCase):
         )
 
     def test_migrate_listing_block_to_summary(self):
-        blocks = {
-            "@type": "listing",
-        }
+        blocks = {"@type": "listing"}
 
         result = migrate_listing_block_to_summary(blocks)
 

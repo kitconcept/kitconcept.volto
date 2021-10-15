@@ -1,0 +1,10 @@
+{
+  "@type": "Document",
+  "title": "Algorithms and Methods",
+  "description": "Efficient simulations need powerful algorithms and methods.",
+  "review_state": "published",
+  "subjects": ["content-type"],
+  "set_local_image": {
+    "preview_image": "image-2.jpg"
+  }
+}
