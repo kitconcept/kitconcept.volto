@@ -274,47 +274,32 @@ def create_root_homepage(context, default_home=None):
         )
     else:
         blocks = {
-            "07c273fc-8bfc-4e7d-a327-d513e5a945bb": {
-                "@type": "title"
-            },
+            "07c273fc-8bfc-4e7d-a327-d513e5a945bb": {"@type": "title"},
             "4ec81e29-5718-41f7-9d46-309f1144d096": {
                 "@type": "slate",
                 "plaintext": " Plone 6 is the first CMS on the market that combines the power features, best-in-class security, and scalability of an enterprise CMS with a state-of-the-art JavaScript frontend and an easy-to-use user interface that gives editors full control over the composition of pages. ",
                 "value": [
                     {
                         "children": [
-                            {
-                                "text": ""
-                            },
+                            {"text": ""},
                             {
                                 "children": [
                                     {
                                         "text": "Plone 6 is the first CMS on the market that combines the power features, best-in-class security, and scalability of an enterprise CMS with a state-of-the-art JavaScript frontend and an easy-to-use user interface that gives editors full control over the composition of pages."
                                     }
                                 ],
-                                "type": "strong"
+                                "type": "strong",
                             },
-                            {
-                                "text": ""
-                            }
+                            {"text": ""},
                         ],
-                        "type": "p"
+                        "type": "p",
                     }
-                ]
+                ],
             },
             "16b64850-1cb1-4843-95fc-8b7fe6e74e09": {
                 "@type": "slate",
                 "plaintext": "Empowering Editors",
-                "value": [
-                    {
-                        "children": [
-                            {
-                                "text": "Empowering Editors"
-                            }
-                        ],
-                        "type": "h2"
-                    }
-                ]
+                "value": [{"children": [{"text": "Empowering Editors"}], "type": "h2"}],
             },
             "6d0872d4-5b73-455b-ac4f-1495225b7f52": {
                 "@type": "slate",
@@ -326,9 +311,9 @@ def create_root_homepage(context, default_home=None):
                                 "text": "Plone 6 is built from the ground up to empower both seasonal and frequent editors to create modern web layouts that automatically adapt to any device. "
                             }
                         ],
-                        "type": "p"
+                        "type": "p",
                     }
-                ]
+                ],
             },
             "82dcb6d4-3fe1-4378-bc18-2eb6fd652d41": {
                 "@type": "slate",
@@ -340,9 +325,9 @@ def create_root_homepage(context, default_home=None):
                                 "text": "The new blocks engine allows editors to build sophisticated page layouts in no time, without the need for any in-depth knowledge of the underlying web technologies."
                             }
                         ],
-                        "type": "p"
+                        "type": "p",
                     }
-                ]
+                ],
             },
             "77947dbc-7085-413d-bafd-2f212c23f847": {
                 "@type": "slate",
@@ -350,13 +335,11 @@ def create_root_homepage(context, default_home=None):
                 "value": [
                     {
                         "children": [
-                            {
-                                "text": "No Code Content Types, Forms, and Faceted Search"
-                            }
+                            {"text": "No Code Content Types, Forms, and Faceted Search"}
                         ],
-                        "type": "h2"
+                        "type": "h2",
                     }
-                ]
+                ],
             },
             "786df958-6209-46fb-90e9-7ef1349ba74a": {
                 "@type": "slate",
@@ -368,9 +351,9 @@ def create_root_homepage(context, default_home=None):
                                 "text": "Plone 6 allows creating new content types through the web without the need to write code. Editors can define templates through the web to control the layout of content types."
                             }
                         ],
-                        "type": "p"
+                        "type": "p",
                     }
-                ]
+                ],
             },
             "4fbebd18-0d13-466a-a65b-43fb885a89e7": {
                 "@type": "slate",
@@ -382,23 +365,16 @@ def create_root_homepage(context, default_home=None):
                                 "text": "Creating forms and sophisticated faceted search user interfaces are possible entirely through the web and become a no-brainer with Plone 6."
                             }
                         ],
-                        "type": "p"
+                        "type": "p",
                     }
-                ]
+                ],
             },
             "22ff9890-5d07-4786-ad16-10ca39cb7cd5": {
                 "@type": "slate",
                 "plaintext": "Ready for Prime Time",
                 "value": [
-                    {
-                        "children": [
-                            {
-                                "text": "Ready for Prime Time"
-                            }
-                        ],
-                        "type": "h2"
-                    }
-                ]
+                    {"children": [{"text": "Ready for Prime Time"}], "type": "h2"}
+                ],
             },
             "10eca87d-78cb-4cb0-a8c5-cd1a495b2206": {
                 "@type": "slate",
@@ -410,23 +386,14 @@ def create_root_homepage(context, default_home=None):
                                 "text": "Plone 6 comes with a rich ecosystem of more than 100 add-on products. The new software stack that powers Plone 6 (Volto, REST API, Plone Backend) has been used in production for more than four years. Plone 6 already powers high-profile government websites, university websites, and intranets around the globe today.´"
                             }
                         ],
-                        "type": "p"
+                        "type": "p",
                     }
-                ]
+                ],
             },
             "627f0450-9e58-44db-b626-d4de6530d0cb": {
                 "@type": "slate",
                 "plaintext": "Ready When You Are",
-                "value": [
-                    {
-                        "children": [
-                            {
-                                "text": "Ready When You Are"
-                            }
-                        ],
-                        "type": "h2"
-                    }
-                ]
+                "value": [{"children": [{"text": "Ready When You Are"}], "type": "h2"}],
             },
             "8e4dbd99-08ef-4dfb-a3e3-b1f1e005ede4": {
                 "@type": "slate",
@@ -438,24 +405,15 @@ def create_root_homepage(context, default_home=None):
                                 "text": "Plone 6 will continue to be shipped with a modernized version of the Plone “Classic” user interface. Plone 6 will be a Long Term Support (LTS) release with an extended support period. This will give you all the time you need to adapt your existing Plone site to the new world of Plone 6 if you are not ready yet."
                             }
                         ],
-                        "type": "p"
+                        "type": "p",
                     }
-                ]
+                ],
             },
             "41663271-68b9-4d5e-80b0-3b3def2ca01e": {
                 "@type": "slate",
                 "plaintext": "",
-                "value": [
-                    {
-                        "children": [
-                            {
-                                "text": "\n"
-                            }
-                        ],
-                        "type": "p"
-                    }
-                ]
-            }
+                "value": [{"children": [{"text": "\n"}], "type": "p"}],
+            },
         }
         blocks_layout = {
             "items": [
@@ -471,12 +429,14 @@ def create_root_homepage(context, default_home=None):
                 "10eca87d-78cb-4cb0-a8c5-cd1a495b2206",
                 "627f0450-9e58-44db-b626-d4de6530d0cb",
                 "8e4dbd99-08ef-4dfb-a3e3-b1f1e005ede4",
-                "41663271-68b9-4d5e-80b0-3b3def2ca01e"
+                "41663271-68b9-4d5e-80b0-3b3def2ca01e",
             ]
         }
 
         portal.setTitle("Welcome to Plone 6!")
-        portal.setDescription("Plone 6 is the first CMS on the market that combines enterprise features with a modern, user-friendly, state-of-the-art JavaScript frontend.")
+        portal.setDescription(
+            "Plone 6 is the first CMS on the market that combines enterprise features with a modern, user-friendly, state-of-the-art JavaScript frontend."
+        )
 
         logger.info("Creating default homepage in Plone site root - not PAM enabled")
 
