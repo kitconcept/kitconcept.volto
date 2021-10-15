@@ -467,6 +467,13 @@ def create_root_homepage(context, default_home=None):
                 "plaintext": "",
                 "value": [{"children": [{"text": "\n"}], "type": "p"}],
             },
+            "d9be2bf2-29d1-4a3e-b116-393c9b4e31c7": {
+                "@type": "image",
+                "align": "center",
+                "alt": "Plone Release Schedule",
+                "size": "l",
+                "url": "/plone-release-schedule"
+            },
         }
         blocks_layout = {
             "items": [
@@ -484,6 +491,7 @@ def create_root_homepage(context, default_home=None):
                 "2368c240-27cf-4b4d-9904-2a651f8858a9",
                 "f3f3123e-8b93-4586-a9a1-f21cf5dfde0f",
                 "7b4c7e43-9056-4775-bbb4-244d888fdee5",
+                "d9be2bf2-29d1-4a3e-b116-393c9b4e31c7",
             ]
         }
 
