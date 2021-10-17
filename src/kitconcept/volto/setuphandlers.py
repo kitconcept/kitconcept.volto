@@ -472,7 +472,7 @@ def create_root_homepage(context, default_home=None):
                 "align": "center",
                 "alt": "Plone Release Schedule",
                 "size": "l",
-                "url": "/plone-release-schedule"
+                "url": "/plone-release-schedule",
             },
         }
         blocks_layout = {
