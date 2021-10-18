@@ -5,7 +5,8 @@ Changelog
 3.0.0a3 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Add "content" profile.
+  [timo]
 
 
 3.0.0a2 (2021-10-11)
