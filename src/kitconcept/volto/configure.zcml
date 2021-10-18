@@ -32,6 +32,15 @@
       />
 
   <genericsetup:registerProfile
+      name="content"
+      title="Example Content"
+      description="Create a Plone site with example content"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/content"
+      post_handler=".setuphandlers.import_example_content"
+      />
+
+  <genericsetup:registerProfile
       name="uninstall"
       title="kitconcept.volto site (kitconcept.volto): uninstall"
       description="Uninstalls the kitconcept.volto add-on."

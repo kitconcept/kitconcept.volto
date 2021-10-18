@@ -1,4 +1,9 @@
-# -*- coding: utf-8 -*-
+import json
+import logging
+import os
+
+import transaction
+from kitconcept.contentcreator.creator import content_creator_from_folder
 from plone import api
 from plone.app.multilingual.browser.setup import SetupMultilingualSite
 from plone.app.multilingual.setuphandlers import enable_translatable_behavior
@@ -17,15 +22,11 @@ from zope.component.interfaces import IFactory
 from zope.container.interfaces import INameChooser
 from zope.interface import implementer
 
-import json
-import logging
-import transaction
-
 logger = logging.getLogger("kitconcept.volto")
 
 
 @implementer(INonInstallable)
-class HiddenProfiles(object):
+class HiddenProfiles:
     def getNonInstallableProfiles(self):
         """Hide uninstall profile from site-creation and quickinstaller"""
         return ["kitconcept.volto:uninstall"]
@@ -237,9 +238,7 @@ def create_default_homepage(context, default_home=default_lrf_home):
                 getattr(portal[lang], "blocks_layout", {}).get("items") is None
                 or getattr(portal[lang], "blocks_layout", {}).get("items") == []
             ):
-                logger.info(
-                    "Creating default homepage for {} - PAM enabled".format(lang)
-                )
+                logger.info(f"Creating default homepage for {lang} - PAM enabled")
                 portal[lang].blocks = default_home["blocks"]
                 portal[lang].blocks_layout = default_home["blocks_layout"]
 
@@ -264,299 +263,242 @@ def create_root_homepage(context, default_home=None):
         blocks = default_home["blocks"]
         blocks_layout = default_home["blocks_layout"]
         portal.setTitle(default_home["title"])
-        portal.setDescription(default_home["description"])
+        # portal.setDescription(default_home["description"])
 
         logger.info(
             "Creating custom default homepage in Plone site root - not PAM enabled"
         )
     else:
         blocks = {
-            "0358abe2-b4f1-463d-a279-a63ea80daf19": {"@type": "description"},
             "07c273fc-8bfc-4e7d-a327-d513e5a945bb": {"@type": "title"},
-            "2dfe8e4c-5bf6-43f1-93e1-6c320ede7226": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [],
-                            "inlineStyleRanges": [
-                                {"length": 10, "offset": 0, "style": "BOLD"}
-                            ],
-                            "key": "6470b",
-                            "text": "Disclaimer: This instance is reset every night, so all changes will be lost afterwards.",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {},
-                },
+            "5ce1de1b-ccb9-4b2e-84fd-ca0f71decfd5": {
+                "@type": "slate",
+                "plaintext": "Plone 6 is the first CMS on the market that combines the power features, best-in-class security, and scalability of an enterprise CMS with a state-of-the-art JavaScript frontend and an easy-to-use user interface that gives editors full control over the composition of pages.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Plone 6 is the first CMS on the market that combines the power features, best-in-class security, and scalability of an enterprise CMS with a state-of-the-art JavaScript frontend and an easy-to-use user interface that gives editors full control over the composition of pages."
+                            }
+                        ],
+                        "type": "p",
+                    }
+                ],
             },
-            "3c881f51-f75b-4959-834a-6e1d5edc32ae": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [],
-                            "inlineStyleRanges": [
-                                {"length": 5, "offset": 6, "style": "BOLD"}
-                            ],
-                            "key": "ekn3l",
-                            "text": "user: admin",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {},
-                },
+            "ba20f545-df1e-4cf7-9b49-822b4c354cdf": {
+                "@type": "slate",
+                "plaintext": "Empowering Editors",
+                "value": [{"children": [{"text": "Empowering Editors"}], "type": "h2"}],
             },
-            "5e1c30b1-ec6c-4dc0-9483-9768c3c416e4": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [
-                                {"key": 0, "length": 5, "offset": 0},
-                                {"key": 1, "length": 8, "offset": 455},
-                            ],
-                            "inlineStyleRanges": [],
-                            "key": "behki",
-                            "text": "Plone is a CMS built on Python with over 19 years of experience. Plone has very interesting features that appeal to developers and users alike, such as customizable content types, hierarchical URL object traversing and a sophisticated content workflow powered by a granular permissions model. This allows you to build anything from simple websites to enterprise-grade intranets. Volto exposes all these features and communicates with Plone via its mature REST API. Volto can be esily themed and is highly customizable.",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {
-                        "0": {
-                            "data": {
-                                "href": "https://plone.org",
-                                "rel": "nofollow",
-                                "url": "https://plone.org/",
-                            },
-                            "mutability": "MUTABLE",
-                            "type": "LINK",
-                        },
-                        "1": {
-                            "data": {
-                                "href": "https://github.com/plone/plone.restapi",
-                                "url": "https://github.com/plone/plone.restapi",
-                            },
-                            "mutability": "MUTABLE",
-                            "type": "LINK",
-                        },
+            "f93e1aad-38e7-468b-80ff-437b74bb9a68": {
+                "@type": "slate",
+                "plaintext": "Plone 6 is built from the ground up to empower both seasonal and frequent editors to create modern web layouts that automatically adapt to any device.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Plone 6 is built from the ground up to empower both seasonal and frequent editors to create modern web layouts that automatically adapt to any device."
+                            }
+                        ],
+                        "type": "p",
+                    }
+                ],
+            },
+            "90d6d46f-f9d1-4ffd-a355-8317794aae75": {
+                "@type": "slate",
+                "plaintext": "The new blocks engine allows editors to build sophisticated page layouts in no time, without the need for any in-depth knowledge of the underlying web technologies.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "The new blocks engine allows editors to build sophisticated page layouts in no time, without the need for any in-depth knowledge of the underlying web technologies."
+                            }
+                        ],
+                        "type": "p",
+                    }
+                ],
+            },
+            "278c3d84-ec55-404d-8037-d3d2cd6229e2": {
+                "@type": "slate",
+                "plaintext": "No Code Content Types, Forms, and Faceted Search",
+                "value": [
+                    {
+                        "children": [
+                            {"text": "No Code Content Types, Forms, and Faceted Search"}
+                        ],
+                        "type": "h2",
+                    }
+                ],
+            },
+            "1e10e2c1-5f68-4ce3-96b4-542ada4798c1": {
+                "@type": "slate",
+                "plaintext": "Plone 6 allows creating new content types through the web without the need to write code. Editors can define templates through the web to control the layout of content types.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Plone 6 allows creating new content types through the web without the need to write code. Editors can define templates through the web to control the layout of content types."
+                            }
+                        ],
+                        "type": "p",
+                    }
+                ],
+            },
+            "7a7d8c76-fcf0-4602-bb56-1a77c8e6bf31": {
+                "@type": "slate",
+                "plaintext": "Creating forms and sophisticated faceted search user interfaces are possible entirely through the web and become a no-brainer with Plone 6.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Creating forms and sophisticated faceted search user interfaces are possible entirely through the web and become a no-brainer with Plone 6."
+                            }
+                        ],
+                        "type": "p",
+                    }
+                ],
+            },
+            "0b30dc27-b4ca-4994-9574-bc4bbcf0a1b5": {
+                "@type": "slate",
+                "plaintext": "Ready for Prime Time",
+                "value": [
+                    {"children": [{"text": "Ready for Prime Time"}], "type": "h2"}
+                ],
+            },
+            "63430da8-1690-4c42-b579-b829fa4014c9": {
+                "@type": "slate",
+                "plaintext": "Plone 6 comes with a rich ecosystem of more than 100 add-on products. The new software stack that powers Plone 6 (Volto, REST API, Plone Backend) has been used in production for more than four years. Plone 6 already powers high-profile government websites, university websites, and intranets around the globe today.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Plone 6 comes with a rich ecosystem of more than 100 add-on products. The new software stack that powers Plone 6 (Volto, REST API, Plone Backend) has been used in production for more than four years. Plone 6 already powers high-profile government websites, university websites, and intranets around the globe today."
+                            }
+                        ],
+                        "type": "p",
+                    }
+                ],
+            },
+            "788154eb-876e-497b-94d8-17c28ecb61c0": {
+                "@type": "__grid",
+                "columns": [
+                    {
+                        "@type": "teaser",
+                        "href": [
+                            {
+                                "@id": "/showcase/exzellenz-an-der-humboldt-universitaet-zu-berlin",
+                                "Description": "",
+                                "Title": "Exzellenz an der Humboldt-Universität zu Berlin",
+                                "hasPreviewImage": True,
+                                "title": "Exzellenz an der Humboldt-Universität zu Berlin",
+                            }
+                        ],
+                        "id": "73bbe6ef-b7c3-40de-9c40-2f3d3cc760d9",
+                        "title": "Excellence at Humboldt-Universität zu Berlin",
                     },
-                },
-            },
-            "61cc1bc0-d4f5-4e2b-9152-79512045a4dd": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [],
-                            "inlineStyleRanges": [],
-                            "key": "9qsa4",
-                            "text": "Demo",
-                            "type": "header-two",
-                        }
-                    ],
-                    "entityMap": {},
-                },
-            },
-            "874049e7-629e-489a-b46c-1adf35ad40ee": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [],
-                            "inlineStyleRanges": [],
-                            "key": "9pnjr",
-                            "text": "Happy hacking!",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {},
-                },
-            },
-            "942b6530-2407-420f-9c24-597adda6b2ce": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [{"key": 0, "length": 36, "offset": 39}],
-                            "inlineStyleRanges": [],
-                            "key": "6a248",
-                            "text": "Last but not least, it also supports a Volto Nodejs-based backend reference API implementation that demos how other systems could also use Volto to display and create content through it.",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {
-                        "0": {
-                            "data": {
-                                "href": "https://github.com/plone/volto-reference-backend",
-                                "url": "https://github.com/plone/volto-reference-backend",
-                            },
-                            "mutability": "MUTABLE",
-                            "type": "LINK",
-                        }
+                    {
+                        "@type": "teaser",
+                        "description": "",
+                        "href": [
+                            {
+                                "@id": "/showcase/humboldt-labor",
+                                "Description": "",
+                                "Title": "Humboldt Labor",
+                                "hasPreviewImage": True,
+                                "title": "Humboldt Labor",
+                            }
+                        ],
+                        "id": "eba7c82a-0960-4e09-a9ba-57ab10a7ac93",
+                        "title": "Humboldt Labor",
                     },
-                },
-            },
-            "9a976b8e-72ba-468a-bea8-b37a31bb386b": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [],
-                            "inlineStyleRanges": [
-                                {"length": 12, "offset": 51, "style": "BOLD"}
-                            ],
-                            "key": "94arl",
-                            "text": "You can log in and use it as admin user using these credentials:",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {},
-                },
-            },
-            "b3717238-448f-406e-b06f-57a9715c3326": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [{"key": 0, "length": 5, "offset": 0}],
-                            "inlineStyleRanges": [],
-                            "key": "1bnna",
-                            "text": "Volto is a React-based frontend for content management systems, currently supporting three backend implementations: Plone, Guillotina and a NodeJS reference implementation.",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {
-                        "0": {
-                            "data": {
-                                "href": "https://github.com/plone/volto",
-                                "url": "https://github.com/plone/volto",
-                            },
-                            "mutability": "MUTABLE",
-                            "type": "LINK",
-                        }
+                    {
+                        "@type": "teaser",
+                        "description": "",
+                        "href": [
+                            {
+                                "@id": "/showcase/osaka-university",
+                                "Description": "",
+                                "Title": "Osaka University",
+                                "hasPreviewImage": True,
+                                "title": "Osaka University",
+                            }
+                        ],
+                        "id": "cdc4f524-e52f-4be0-9a3d-82f0e9b997ce",
+                        "title": "Osaka University",
                     },
-                },
-            },
-            "c049ff8b-3e5a-4cfb-bca6-e4a6cca9be28": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [],
-                            "inlineStyleRanges": [],
-                            "key": "55n44",
-                            "text": "You can use this site to test Volto. It runs on the master branch of Volto using latest Plone 5.2 Backend running on Python 3.",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {},
-                },
-            },
-            "c91f0fe9-f2e9-4a17-84a5-8e4f2678ed3c": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [],
-                            "inlineStyleRanges": [
-                                {"length": 5, "offset": 10, "style": "BOLD"}
-                            ],
-                            "key": "buncq",
-                            "text": "password: admin",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {},
-                },
-            },
-            "e0ca2fbc-7800-4b9b-afe5-8e42af9f5dd6": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [],
-                            "inlineStyleRanges": [],
-                            "key": "f0prj",
-                            "text": "2020 - Volto Team - Plone Foundation",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {},
-                },
-            },
-            "effbdcdc-253c-41a7-841e-5edb3b56ce32": {
-                "@type": "text",
-                "text": {
-                    "blocks": [
-                        {
-                            "data": {},
-                            "depth": 0,
-                            "entityRanges": [{"key": 0, "length": 10, "offset": 36}],
-                            "inlineStyleRanges": [],
-                            "key": "68rve",
-                            "text": "Volto also supports other APIs like Guillotina, a Python resource management system, inspired by Plone and using the same basic concepts like traversal, content types and permissions model.",
-                            "type": "unstyled",
-                        }
-                    ],
-                    "entityMap": {
-                        "0": {
-                            "data": {
-                                "href": "https://guillotina.io/",
-                                "rel": "nofollow",
-                                "url": "https://guillotina.io/",
-                            },
-                            "mutability": "MUTABLE",
-                            "type": "LINK",
-                        }
+                    {
+                        "@type": "teaser",
+                        "description": "",
+                        "href": [
+                            {
+                                "@id": "/showcase/vhs-ehrenamtsportal",
+                                "Description": "",
+                                "Title": "VHS Ehrenamtsportal",
+                                "hasPreviewImage": True,
+                                "title": "VHS Ehrenamtsportal",
+                            }
+                        ],
+                        "id": "3d40b807-1c58-4ed5-9cb9-d6e7d76f4d7d",
+                        "title": "VHS Ehrenamtsportal",
                     },
-                },
+                ],
+            },
+            "2368c240-27cf-4b4d-9904-2a651f8858a9": {
+                "@type": "slate",
+                "plaintext": "Ready When You Are",
+                "value": [{"children": [{"text": "Ready When You Are"}], "type": "h2"}],
+            },
+            "f3f3123e-8b93-4586-a9a1-f21cf5dfde0f": {
+                "@type": "slate",
+                "plaintext": "Plone 6 will continue to be shipped with a modernized version of the Plone “Classic” user interface. Plone 6 will be a Long Term Support (LTS) release with an extended support period. This will give you all the time you need to adapt your existing Plone site to the new world of Plone 6 if you are not ready yet.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Plone 6 will continue to be shipped with a modernized version of the Plone “Classic” user interface. Plone 6 will be a Long Term Support (LTS) release with an extended support period. This will give you all the time you need to adapt your existing Plone site to the new world of Plone 6 if you are not ready yet."
+                            }
+                        ],
+                        "type": "p",
+                    }
+                ],
+            },
+            "7b4c7e43-9056-4775-bbb4-244d888fdee5": {
+                "@type": "slate",
+                "plaintext": "",
+                "value": [{"children": [{"text": "\n"}], "type": "p"}],
+            },
+            "d9be2bf2-29d1-4a3e-b116-393c9b4e31c7": {
+                "@type": "image",
+                "align": "center",
+                "alt": "Plone Release Schedule",
+                "size": "l",
+                "url": "/plone-release-schedule",
             },
         }
-
         blocks_layout = {
             "items": [
                 "07c273fc-8bfc-4e7d-a327-d513e5a945bb",
-                "0358abe2-b4f1-463d-a279-a63ea80daf19",
-                "b3717238-448f-406e-b06f-57a9715c3326",
-                "5e1c30b1-ec6c-4dc0-9483-9768c3c416e4",
-                "effbdcdc-253c-41a7-841e-5edb3b56ce32",
-                "942b6530-2407-420f-9c24-597adda6b2ce",
-                "61cc1bc0-d4f5-4e2b-9152-79512045a4dd",
-                "c049ff8b-3e5a-4cfb-bca6-e4a6cca9be28",
-                "9a976b8e-72ba-468a-bea8-b37a31bb386b",
-                "3c881f51-f75b-4959-834a-6e1d5edc32ae",
-                "c91f0fe9-f2e9-4a17-84a5-8e4f2678ed3c",
-                "2dfe8e4c-5bf6-43f1-93e1-6c320ede7226",
-                "874049e7-629e-489a-b46c-1adf35ad40ee",
-                "e0ca2fbc-7800-4b9b-afe5-8e42af9f5dd6",
+                "5ce1de1b-ccb9-4b2e-84fd-ca0f71decfd5",
+                "ba20f545-df1e-4cf7-9b49-822b4c354cdf",
+                "f93e1aad-38e7-468b-80ff-437b74bb9a68",
+                "90d6d46f-f9d1-4ffd-a355-8317794aae75",
+                "278c3d84-ec55-404d-8037-d3d2cd6229e2",
+                "1e10e2c1-5f68-4ce3-96b4-542ada4798c1",
+                "7a7d8c76-fcf0-4602-bb56-1a77c8e6bf31",
+                "0b30dc27-b4ca-4994-9574-bc4bbcf0a1b5",
+                "63430da8-1690-4c42-b579-b829fa4014c9",
+                "788154eb-876e-497b-94d8-17c28ecb61c0",
+                "2368c240-27cf-4b4d-9904-2a651f8858a9",
+                "f3f3123e-8b93-4586-a9a1-f21cf5dfde0f",
+                "7b4c7e43-9056-4775-bbb4-244d888fdee5",
+                "d9be2bf2-29d1-4a3e-b116-393c9b4e31c7",
             ]
         }
 
-        portal.setTitle("Welcome to Volto!")
-        portal.setDescription("The React powered content management system")
+        portal.setTitle("Welcome to Plone 6!")
+        portal.setDescription(
+            "Plone 6 is the first CMS on the market that combines enterprise features with a modern, user-friendly, state-of-the-art JavaScript frontend."
+        )
 
         logger.info("Creating default homepage in Plone site root - not PAM enabled")
 
@@ -568,3 +510,32 @@ def create_root_homepage(context, default_home=None):
         portal.manage_addProperty(
             "blocks_layout", json.dumps(blocks_layout), "string"
         )  # noqa
+
+
+def import_example_content(context):
+    portal = api.portal.get()
+
+    if "news" in portal.objectIds():
+        api.content.delete(obj=portal["news"])
+
+    if "events" in portal.objectIds():
+        api.content.delete(obj=portal["events"])
+
+    if "Members" in portal.objectIds():
+        api.content.delete(obj=portal["Members"])
+
+    # enable content non-globally addable types just for initial content
+    # creation
+    TEMP_ENABLE_CONTENT_TYPES = ["Folder"]
+    for content_type in TEMP_ENABLE_CONTENT_TYPES:
+        enable_content_type(portal, content_type)
+
+    content_creator_from_folder(
+        folder_name=os.path.join(os.path.dirname(__file__), "content_creator"),
+        base_image_path=os.path.join(os.path.dirname(__file__), "content_images"),
+    )
+
+    # disable again content non-globally addable types just for initial content
+    # creation
+    for content_type in TEMP_ENABLE_CONTENT_TYPES:
+        disable_content_type(portal, content_type)
