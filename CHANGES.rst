@@ -5,7 +5,7 @@ Changelog
 3.0.0a3 (unreleased)
 --------------------
 
-- Add "content" profile.
+- Add "content" profile (this adds a dependency to kitconcept.contentcreator).
   [timo]
 
 
