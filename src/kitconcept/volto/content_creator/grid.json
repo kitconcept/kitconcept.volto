@@ -6,26 +6,15 @@
     },
     "b522b9f9-8da3-43d5-b6bd-45f6e289403e": {
       "@type": "slate",
-      "plaintext": " Plone 6 allows editors to build sophisticated page layouts.",
+      "plaintext": "Plone 6 allows editors to build sophisticated multi-column page layouts with the Grid Block.",
       "value": [
         {
           "children": [
             {
-              "text": ""
-            },
-            {
-              "children": [
-                {
-                  "text": "Plone 6 allows editors to build sophisticated page layouts"
-                }
-              ],
-              "type": "strong"
-            },
-            {
-              "text": ""
+              "text": "Plone 6 allows editors to build sophisticated multi-column page layouts with the Grid Block."
             }
           ],
-          "type": "p"
+          "type": "h3"
         }
       ]
     },
@@ -245,6 +234,31 @@
             }
           ],
           "type": "h2"
+        }
+      ]
+    },
+    "f5cf38b6-fb24-404a-97ed-89bd24790992": {
+      "@type": "slate",
+      "plaintext": " Grid Blocks allow editors to freely combine different kinds of blocks. ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Grid Blocks allow editors to freely combine different kinds of blocks."
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
         }
       ]
     },
@@ -890,20 +904,6 @@
         }
       ]
     },
-    "4588df8e-e960-42ad-b9f9-798613ea9e81": {
-      "@type": "slate",
-      "plaintext": "",
-      "value": [
-        {
-          "children": [
-            {
-              "text": ""
-            }
-          ],
-          "type": "p"
-        }
-      ]
-    },
     "ea305839-e2b3-4e68-9bc9-c823889348f6": {
       "@type": "slate",
       "plaintext": "",
@@ -929,6 +929,7 @@
       "1916b08c-5f41-434f-8c8b-f2f576296153",
       "5dc88ec1-04fd-4181-9eec-d8322b197f64",
       "2131bf9a-9463-48e5-bac2-63fee80a5102",
+      "f5cf38b6-fb24-404a-97ed-89bd24790992",
       "10c44703-e012-4487-aeec-694a14bec85e",
       "0f33f38c-dd58-4ae3-8a0f-dc9e0440f319",
       "ad267617-8f06-4b91-9699-591337924a49",
@@ -944,7 +945,6 @@
       "1862ac8f-3611-429c-b718-407d1b8a9cfa",
       "82caddbb-96cf-48c3-ab70-e5f75bcb3d74",
       "fb688423-1f0c-4602-9494-9fb68a5339f9",
-      "4588df8e-e960-42ad-b9f9-798613ea9e81",
       "ea305839-e2b3-4e68-9bc9-c823889348f6"
     ]
   },
