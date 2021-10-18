@@ -1,5 +1,8 @@
 {
   "@type": "Document",
+  "set_local_image": {
+    "preview_image": "image-2.jpg"
+  },
   "blocks": {
     "d3f1c443-583f-4e8e-a682-3bf25752a300": {
       "@type": "title"
