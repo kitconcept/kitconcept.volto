@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-3.0.0a3 (unreleased)
+3.0.0a3 (2021-10-18)
 --------------------
 
 - Add "content" profile (this adds a dependency to kitconcept.contentcreator).
