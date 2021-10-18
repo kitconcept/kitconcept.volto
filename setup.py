@@ -50,6 +50,7 @@ setup(
         "z3c.jbot",
         "plone.restapi",
         "collective.folderishtypes[dexterity]",
+        "kitconcept.contentcreator",
         "requests",
         "jq",
     ],

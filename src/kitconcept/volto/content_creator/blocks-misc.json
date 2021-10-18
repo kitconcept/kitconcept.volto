@@ -1,0 +1,373 @@
+{
+    "@type": "Document",
+    "blocks": {
+        "8816a479-1394-4c58-99f9-39b226d72c87": {
+            "@type": "title"
+        },
+        "3bf1052d-98ff-43b0-8f4b-8c68da5d8241": {
+            "@type": "slate",
+            "plaintext": "",
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ],
+                    "type": "p"
+                }
+            ]
+        },
+        "fc7adb05-d5ff-49e7-8791-405f3d043aae": {
+            "@type": "slate",
+            "plaintext": "Highlight Slider",
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": "Highlight Slider"
+                        }
+                    ],
+                    "type": "h2"
+                }
+            ]
+        },
+        "4250ae90-850d-492f-935e-ee7e09de5495": {
+            "@type": "highlightSlider",
+            "hrefList": [
+                {
+                    "description": "The simulation of complex systems in natural science or engineering depends on the development of adequate mathematical models. Thus the development of realistic and yet efficient models is one of our core activities.",
+                    "href": "/examples/page-1",
+                    "id": "0e798e40-71e3-4029-8de0-8cf2c261d4de",
+                    "preview_image": {
+                        "content-type": "image/jpeg",
+                        "download": "/examples/page-1/@@images/b77808d9-fe28-4762-a385-291e3edffb60.jpeg",
+                        "filename": "image-1.jpg",
+                        "height": 3280,
+                        "scales": {
+                            "great": {
+                                "download": "/examples/page-1/@@images/d3acb6d3-7e65-4a52-a29f-d21bd1cb3832.jpeg",
+                                "height": 798,
+                                "width": 1200
+                            },
+                            "huge": {
+                                "download": "/examples/page-1/@@images/b7425c18-c0fe-4b74-8077-5d246e209b90.jpeg",
+                                "height": 1064,
+                                "width": 1600
+                            },
+                            "icon": {
+                                "download": "/examples/page-1/@@images/747c4f39-e5f2-4910-8ec7-cf0754b1a71d.jpeg",
+                                "height": 21,
+                                "width": 32
+                            },
+                            "large": {
+                                "download": "/examples/page-1/@@images/6ddb05ad-34bb-4006-ae8b-7508c1522d43.jpeg",
+                                "height": 532,
+                                "width": 800
+                            },
+                            "larger": {
+                                "download": "/examples/page-1/@@images/3f040278-6002-4b21-a4fd-4b61ca0befe8.jpeg",
+                                "height": 665,
+                                "width": 1000
+                            },
+                            "mini": {
+                                "download": "/examples/page-1/@@images/461a108b-5f90-46ee-aa1e-f895faef049a.jpeg",
+                                "height": 133,
+                                "width": 200
+                            },
+                            "preview": {
+                                "download": "/examples/page-1/@@images/aebcada2-f808-42da-a0f3-e9d40273a57e.jpeg",
+                                "height": 266,
+                                "width": 400
+                            },
+                            "teaser": {
+                                "download": "/examples/page-1/@@images/ca4b571a-3323-442f-a359-1a6739af5978.jpeg",
+                                "height": 399,
+                                "width": 600
+                            },
+                            "thumb": {
+                                "download": "/examples/page-1/@@images/961e671b-698c-44b9-aa4e-80977761246f.jpeg",
+                                "height": 85,
+                                "width": 128
+                            },
+                            "tile": {
+                                "download": "/examples/page-1/@@images/47aaa2bf-1742-481a-ac07-3dc21d775bfa.jpeg",
+                                "height": 42,
+                                "width": 64
+                            }
+                        },
+                        "size": 1239918,
+                        "width": 4928
+                    },
+                    "title": "Modelling and Simulation"
+                },
+                {
+                    "description": "Efficient simulations need powerful algorithms and methods.",
+                    "href": "/examples/page-2",
+                    "id": "8c5b1355-e546-4550-89ac-190e682e4918",
+                    "preview_image": {
+                        "content-type": "image/jpeg",
+                        "download": "/examples/page-2/@@images/7e25f10f-843b-4c4d-9b6a-9838ea444871.jpeg",
+                        "filename": "image-2.jpg",
+                        "height": 2848,
+                        "scales": {
+                            "great": {
+                                "download": "/examples/page-2/@@images/ca8a08db-6026-438a-9f1f-bb65ed9d80fc.jpeg",
+                                "height": 797,
+                                "width": 1200
+                            },
+                            "huge": {
+                                "download": "/examples/page-2/@@images/f589ed93-0c70-405f-9e0f-0ff386a1c960.jpeg",
+                                "height": 1062,
+                                "width": 1600
+                            },
+                            "icon": {
+                                "download": "/examples/page-2/@@images/c3656301-4cc3-4323-90f9-bcbfd3075215.jpeg",
+                                "height": 21,
+                                "width": 32
+                            },
+                            "large": {
+                                "download": "/examples/page-2/@@images/1e8c6de3-2c75-45bf-aeda-03378e8f0c16.jpeg",
+                                "height": 531,
+                                "width": 800
+                            },
+                            "larger": {
+                                "download": "/examples/page-2/@@images/f41df306-debd-4bfb-8f2a-175cdb149e10.jpeg",
+                                "height": 664,
+                                "width": 1000
+                            },
+                            "mini": {
+                                "download": "/examples/page-2/@@images/e23b5e7d-1354-40dd-9aa6-bda95a04b85b.jpeg",
+                                "height": 132,
+                                "width": 200
+                            },
+                            "preview": {
+                                "download": "/examples/page-2/@@images/7e2bfde6-ca52-4baa-8a02-821892a796ea.jpeg",
+                                "height": 265,
+                                "width": 400
+                            },
+                            "teaser": {
+                                "download": "/examples/page-2/@@images/5ac4d453-3185-437c-8417-cc6af81f42d5.jpeg",
+                                "height": 398,
+                                "width": 600
+                            },
+                            "thumb": {
+                                "download": "/examples/page-2/@@images/f276e194-8d8d-430b-8431-343a720bea2b.jpeg",
+                                "height": 85,
+                                "width": 128
+                            },
+                            "tile": {
+                                "download": "/examples/page-2/@@images/9c3429b8-61f7-4e0c-8fbf-d532d2879bd9.jpeg",
+                                "height": 42,
+                                "width": 64
+                            }
+                        },
+                        "size": 1581210,
+                        "width": 4288
+                    },
+                    "title": "Algorithms and Methods"
+                },
+                {
+                    "description": "Through research on resource and data management, workflows, virtualisation, and security we foster the easy and secure access to distributed systems and data that builds the foundation for the exploitation of results across scientific domains.",
+                    "href": "/examples/page-3",
+                    "id": "fd55ac98-5275-4786-8ffc-d06999ec6978",
+                    "preview_image": {
+                        "content-type": "image/jpeg",
+                        "download": "/examples/page-3/@@images/5c7108bb-5dce-42e9-8e71-668adadadd46.jpeg",
+                        "filename": "image-3.jpg",
+                        "height": 3744,
+                        "scales": {
+                            "great": {
+                                "download": "/examples/page-3/@@images/6590e4f1-668b-4e61-ba57-6348537569fe.jpeg",
+                                "height": 800,
+                                "width": 1200
+                            },
+                            "huge": {
+                                "download": "/examples/page-3/@@images/eccca129-c7d9-4871-9dd4-4bfcb2c11b3b.jpeg",
+                                "height": 1066,
+                                "width": 1600
+                            },
+                            "icon": {
+                                "download": "/examples/page-3/@@images/da227938-cf7a-41d2-8d88-5cd064c19541.jpeg",
+                                "height": 21,
+                                "width": 32
+                            },
+                            "large": {
+                                "download": "/examples/page-3/@@images/3f898f4e-ec9a-4dfc-8ee8-ab01f5f4d793.jpeg",
+                                "height": 533,
+                                "width": 800
+                            },
+                            "larger": {
+                                "download": "/examples/page-3/@@images/7494e410-42b7-4f7e-a3f0-94fdd1f888f1.jpeg",
+                                "height": 666,
+                                "width": 1000
+                            },
+                            "mini": {
+                                "download": "/examples/page-3/@@images/b7d291b7-67a4-4bc8-b721-cd78895cbedd.jpeg",
+                                "height": 133,
+                                "width": 200
+                            },
+                            "preview": {
+                                "download": "/examples/page-3/@@images/1f8bf3a1-40ed-4428-ab77-52bdae69ad71.jpeg",
+                                "height": 266,
+                                "width": 400
+                            },
+                            "teaser": {
+                                "download": "/examples/page-3/@@images/a1434d20-b073-46c1-b821-f8e321e57731.jpeg",
+                                "height": 400,
+                                "width": 600
+                            },
+                            "thumb": {
+                                "download": "/examples/page-3/@@images/08e2ae16-c082-4050-abef-57a08d07b2a7.jpeg",
+                                "height": 85,
+                                "width": 128
+                            },
+                            "tile": {
+                                "download": "/examples/page-3/@@images/bc29ae22-2d59-4925-a189-18ed484eee1f.jpeg",
+                                "height": 42,
+                                "width": 64
+                            }
+                        },
+                        "size": 1164457,
+                        "width": 5616
+                    },
+                    "title": "Distributed Computing"
+                }
+            ]
+        },
+        "df0de1d1-9660-4b4f-a76b-99bc1da4e778": {
+            "@type": "slate",
+            "plaintext": "",
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ],
+                    "type": "p"
+                }
+            ]
+        },
+        "fd7479ce-0708-4f59-9985-fb42167bff59": {
+            "@type": "carousel",
+            "bg_color": null,
+            "columns": [
+                {
+                    "@id": "27951951-1970-4aea-a5af-0be631aa86cc",
+                    "description": "The simulation of complex systems in natural science or engineering depends on the development of adequate mathematical models. Thus the development of realistic and yet efficient models is one of our core activities.",
+                    "href": [
+                        {
+                            "@id": "/examples/page-1",
+                            "Description": "The simulation of complex systems in natural science or engineering depends on the development of adequate mathematical models. Thus the development of realistic and yet efficient models is one of our core activities.",
+                            "Title": "Modelling and Simulation",
+                            "hasPreviewImage": true,
+                            "title": "Modelling and Simulation"
+                        }
+                    ],
+                    "title": "Modelling and Simulation"
+                },
+                {
+                    "@id": "57b9dad3-971e-47c8-8b69-e529361a8e5e",
+                    "description": "Efficient simulations need powerful algorithms and methods.",
+                    "href": [
+                        {
+                            "@id": "/examples/page-2",
+                            "Description": "Efficient simulations need powerful algorithms and methods.",
+                            "Title": "Algorithms and Methods",
+                            "hasPreviewImage": true,
+                            "title": "Algorithms and Methods"
+                        }
+                    ],
+                    "title": "Algorithms and Methods"
+                },
+                {
+                    "@id": "6d9bdac2-d2e6-4f44-a5be-efe43d85a3ad",
+                    "description": "Through research on resource and data management, workflows, virtualisation, and security we foster the easy and secure access to distributed systems and data that builds the foundation for the exploitation of results across scientific domains.",
+                    "href": [
+                        {
+                            "@id": "/examples/page-3",
+                            "Description": "Through research on resource and data management, workflows, virtualisation, and security we foster the easy and secure access to distributed systems and data that builds the foundation for the exploitation of results across scientific domains.",
+                            "Title": "Distributed Computing",
+                            "hasPreviewImage": true,
+                            "title": "Distributed Computing"
+                        }
+                    ],
+                    "title": "Distributed Computing"
+                },
+                {
+                    "@id": "f45b431b-a466-4776-8de2-97da2f90f60d",
+                    "description": "In the human disease retinitis pigmentosa the photoreceptors degenerate, leading to blindness. Electrical prostheses can elicit visual sensations in patients; however, processes secondary to photoreceptor death lead to pathological rhythmic activity in the remaining retinal network that seems to interfere with this therapeutic approach.",
+                    "href": [
+                        {
+                            "@id": "/examples/page-4",
+                            "Description": "In the human disease retinitis pigmentosa the photoreceptors degenerate, leading to blindness. Electrical prostheses can elicit visual sensations in patients; however, processes secondary to photoreceptor death lead to pathological rhythmic activity in the remaining retinal network that seems to interfere with this therapeutic approach.",
+                            "Title": "Novel therapeutic options for human diseases",
+                            "hasPreviewImage": true,
+                            "title": "Novel therapeutic options for human diseases"
+                        }
+                    ],
+                    "title": "Novel therapeutic options for human diseases"
+                },
+                {
+                    "@id": "8d794c88-63e4-4ca7-94d1-dc3ae4e359e9",
+                    "description": "Monogenetic diseases provide a direct link between a change in protein function to cell and organ dysfunction. Studying monogenetic diseases often permits identification of cellular roles of ion channels. Moreover, disease-causing mutations usually affect important functions of the affected proteins, and analysis of the functional consequences of such mutations thus provides novel insights into the molecular determinants of protein functions.",
+                    "href": [
+                        {
+                            "@id": "/examples/page-5",
+                            "Description": "Monogenetic diseases provide a direct link between a change in protein function to cell and organ dysfunction. Studying monogenetic diseases often permits identification of cellular roles of ion channels. Moreover, disease-causing mutations usually affect important functions of the affected proteins, and analysis of the functional consequences of such mutations thus provides novel insights into the molecular determinants of protein functions.",
+                            "Title": "Pathomechanisms of human diseases",
+                            "hasPreviewImage": true,
+                            "title": "Pathomechanisms of human diseases"
+                        }
+                    ],
+                    "title": "Pathomechanisms of human diseases"
+                },
+                {
+                    "@id": "fb0d3a23-19d1-4210-a489-36f002b7dced",
+                    "description": "Information processing in the central nervous system relies on the precise interplay of electrical and chemical signals. Action potential generation, propagation, and the initiating events causing transmitter release from the synaptic terminus are determined by the activity of a variety of ion channels. The transfer of information between neurons and target cells is achieved by chemical transmitter substances crossing the synaptic cleft. Neurotransmitter are accumulated in presynaptic vesicles whose fusion with the cell membrane results in neurotransmitter release.",
+                    "href": [
+                        {
+                            "@id": "/examples/page-6",
+                            "Description": "Information processing in the central nervous system relies on the precise interplay of electrical and chemical signals. Action potential generation, propagation, and the initiating events causing transmitter release from the synaptic terminus are determined by the activity of a variety of ion channels. The transfer of information between neurons and target cells is achieved by chemical transmitter substances crossing the synaptic cleft. Neurotransmitter are accumulated in presynaptic vesicles whose fusion with the cell membrane results in neurotransmitter release.",
+                            "Title": "Generation, propagation and transmission of cellular signals",
+                            "hasPreviewImage": true,
+                            "title": "Generation, propagation and transmission of cellular signals"
+                        }
+                    ],
+                    "title": "Generation, propagation and transmission of cellular signals"
+                }
+            ],
+            "headline": "Carousel"
+        },
+        "67161809-2f12-457b-b077-962b8b953e52": {
+            "@type": "slate",
+            "plaintext": "",
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": ""
+                        }
+                    ],
+                    "type": "p"
+                }
+            ]
+        }
+    },
+    "blocks_layout": {
+        "items": [
+            "8816a479-1394-4c58-99f9-39b226d72c87",
+            "3bf1052d-98ff-43b0-8f4b-8c68da5d8241",
+            "fc7adb05-d5ff-49e7-8791-405f3d043aae",
+            "4250ae90-850d-492f-935e-ee7e09de5495",
+            "df0de1d1-9660-4b4f-a76b-99bc1da4e778",
+            "fd7479ce-0708-4f59-9985-fb42167bff59",
+            "67161809-2f12-457b-b077-962b8b953e52"
+        ]
+    },
+    "title": "Blocks",
+    "description": "",
+    "review_state": "private",
+    "subjects": []
+}
