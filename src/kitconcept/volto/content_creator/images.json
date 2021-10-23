@@ -4,6 +4,131 @@
     "45f3204c-a0ef-4bcd-8f9e-d27d7c61c2ea": {
       "@type": "title"
     },
+    "6790be8f-3dc0-47b9-b48d-7bac213e197b": {
+      "@type": "slate",
+      "plaintext": "Image Large (Left Aligned)",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Image Large (Left Aligned)"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "d2866842-b007-49a2-a06f-a0bfab88b4f2": {
+      "@type": "image",
+      "align": "left",
+      "alt": "Image 1",
+      "size": "l",
+      "url": "/examples/image-1"
+    },
+    "05486b9c-a2c5-4963-a586-cf39b3d982d2": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8cd7f653-c818-49a4-bff1-eca79b08ff1a": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "fe3912f5-190b-4463-a88a-ddec112c2b07": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "61023d0b-e56d-485d-8736-80c4375e3a61": {
+      "@type": "slate",
+      "plaintext": "Image Large (Right Aligned)",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Image Large (Right Aligned)"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "22ab72e6-7ad0-4a68-9bbd-f85c3e178b80": {
+      "@type": "image",
+      "align": "right",
+      "alt": "Image 2",
+      "url": "/examples/image-2"
+    },
+    "d62fa82c-7292-41ee-841b-66f5e1a8fb64": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "89ca4f4a-8de8-4bf6-a4d6-f4389fdc2332": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b86bd4bd-c91d-4d0e-92bd-5a8b36fc848c": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
     "d1b0ce22-aa36-4b70-84f6-9da22b5da6ba": {
       "@type": "slate",
       "plaintext": "Image Large (Centered)",
@@ -34,8 +159,9 @@
     },
     "60579061-c847-40bd-a130-a7b98d3304c4": {
       "@type": "image",
-      "alt": "Image 1",
-      "url": "/examples/image-1"
+      "alt": "Image 3",
+      "size": "l",
+      "url": "/examples/image-3"
     },
     "a2a7db46-e601-4547-83cf-95dd8f9b0d20": {
       "@type": "slate",
@@ -53,12 +179,12 @@
     },
     "ddc83fdf-8947-48f3-8bce-ceead676bb14": {
       "@type": "slate",
-      "plaintext": "Image Full-Width (Centered)",
+      "plaintext": "Image (Full-Width)",
       "value": [
         {
           "children": [
             {
-              "text": "Image Full-Width (Centered)"
+              "text": "Image (Full-Width)"
             }
           ],
           "type": "h2"
@@ -99,116 +225,6 @@
         }
       ]
     },
-    "6e1a441d-c97e-4777-9812-812e32a89301": {
-      "@type": "slate",
-      "plaintext": "Image Lage (Aligned Left)",
-      "value": [
-        {
-          "children": [
-            {
-              "text": "Image Lage (Aligned Left)"
-            }
-          ],
-          "type": "h2"
-        }
-      ]
-    },
-    "912f4902-24ea-44f5-b1b1-5b0150d44588": {
-      "@type": "image",
-      "align": "left",
-      "alt": "Image 2",
-      "url": "/examples/image-2"
-    },
-    "efcb5ad9-92d6-4da4-bc55-57b3a75adb9d": {
-      "@type": "slate",
-      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "value": [
-        {
-          "children": [
-            {
-              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-            }
-          ],
-          "type": "p"
-        }
-      ]
-    },
-    "12a9337b-45f8-4970-8e74-7b61e6005e62": {
-      "@type": "slate",
-      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "value": [
-        {
-          "children": [
-            {
-              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-            }
-          ],
-          "type": "p"
-        }
-      ]
-    },
-    "03237e72-637d-4270-9f50-2dd405f63d5a": {
-      "@type": "slate",
-      "plaintext": "Image Lage (Aligned Right)",
-      "value": [
-        {
-          "children": [
-            {
-              "text": "Image Lage (Aligned Right)"
-            }
-          ],
-          "type": "h2"
-        }
-      ]
-    },
-    "395ce0ad-65e9-4751-a1f5-cb50c317d298": {
-      "@type": "image",
-      "align": "right",
-      "alt": "Image 2",
-      "url": "/examples/image-2"
-    },
-    "9345065b-8956-4d3b-b2de-7278d591b4aa": {
-      "@type": "slate",
-      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "value": [
-        {
-          "children": [
-            {
-              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-            }
-          ],
-          "type": "p"
-        }
-      ]
-    },
-    "ed9465dc-d3ff-476d-8bfd-9d64cb696720": {
-      "@type": "slate",
-      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "value": [
-        {
-          "children": [
-            {
-              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-            }
-          ],
-          "type": "p"
-        }
-      ]
-    },
-    "502adc03-8eea-4ef4-8171-cf6a55e22305": {
-      "@type": "slate",
-      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "value": [
-        {
-          "children": [
-            {
-              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-            }
-          ],
-          "type": "p"
-        }
-      ]
-    },
     "7d659959-4c9e-472d-8d1b-cc099a629f38": {
       "@type": "slate",
       "plaintext": "Image Mid (Aligned Left)",
@@ -226,9 +242,9 @@
     "56f0f2af-8606-4629-b322-94deb66ccba2": {
       "@type": "image",
       "align": "left",
-      "alt": "Image 3",
+      "alt": "Image 5",
       "size": "m",
-      "url": "/examples/image-3"
+      "url": "/examples/image-5"
     },
     "2632219d-dd31-48de-ae80-4535e7e496ef": {
       "@type": "slate",
@@ -275,9 +291,9 @@
     "e5274af6-859e-4924-bdc6-00550f83f6b4": {
       "@type": "image",
       "align": "right",
-      "alt": "Image 3",
+      "alt": "Image 6",
       "size": "m",
-      "url": "/examples/image-3"
+      "url": "/examples/image-6"
     },
     "e1d6afac-24fe-4aad-a1b2-0c40c33dec92": {
       "@type": "slate",
@@ -301,6 +317,20 @@
           "children": [
             {
               "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c17792bf-8901-4018-9798-fd2935896826": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
             }
           ],
           "type": "p"
@@ -373,9 +403,9 @@
     "b3051ce5-f24e-4668-8e0c-d15d610b8f00": {
       "@type": "image",
       "align": "right",
-      "alt": "Image 5",
+      "alt": "Image 6",
       "size": "s",
-      "url": "/examples/image-5"
+      "url": "/examples/image-6"
     },
     "2f768b02-6954-4c43-adba-9f8487bbb884": {
       "@type": "slate",
@@ -395,6 +425,16 @@
   "blocks_layout": {
     "items": [
       "45f3204c-a0ef-4bcd-8f9e-d27d7c61c2ea",
+      "6790be8f-3dc0-47b9-b48d-7bac213e197b",
+      "d2866842-b007-49a2-a06f-a0bfab88b4f2",
+      "05486b9c-a2c5-4963-a586-cf39b3d982d2",
+      "8cd7f653-c818-49a4-bff1-eca79b08ff1a",
+      "fe3912f5-190b-4463-a88a-ddec112c2b07",
+      "61023d0b-e56d-485d-8736-80c4375e3a61",
+      "22ab72e6-7ad0-4a68-9bbd-f85c3e178b80",
+      "d62fa82c-7292-41ee-841b-66f5e1a8fb64",
+      "89ca4f4a-8de8-4bf6-a4d6-f4389fdc2332",
+      "b86bd4bd-c91d-4d0e-92bd-5a8b36fc848c",
       "d1b0ce22-aa36-4b70-84f6-9da22b5da6ba",
       "e869c075-9cdf-4327-b90c-2e82f2f4e31e",
       "60579061-c847-40bd-a130-a7b98d3304c4",
@@ -403,15 +443,6 @@
       "a48580fc-9438-481f-931d-454ce883dac7",
       "93d504d6-34a6-4ecb-8dc2-b5722b88de3d",
       "d16a2331-b203-45ea-9c60-ca6efa0987d1",
-      "6e1a441d-c97e-4777-9812-812e32a89301",
-      "912f4902-24ea-44f5-b1b1-5b0150d44588",
-      "efcb5ad9-92d6-4da4-bc55-57b3a75adb9d",
-      "12a9337b-45f8-4970-8e74-7b61e6005e62",
-      "03237e72-637d-4270-9f50-2dd405f63d5a",
-      "395ce0ad-65e9-4751-a1f5-cb50c317d298",
-      "9345065b-8956-4d3b-b2de-7278d591b4aa",
-      "ed9465dc-d3ff-476d-8bfd-9d64cb696720",
-      "502adc03-8eea-4ef4-8171-cf6a55e22305",
       "7d659959-4c9e-472d-8d1b-cc099a629f38",
       "56f0f2af-8606-4629-b322-94deb66ccba2",
       "2632219d-dd31-48de-ae80-4535e7e496ef",
@@ -420,6 +451,7 @@
       "e5274af6-859e-4924-bdc6-00550f83f6b4",
       "e1d6afac-24fe-4aad-a1b2-0c40c33dec92",
       "ac51ab1e-579c-41e3-a782-124892edea23",
+      "c17792bf-8901-4018-9798-fd2935896826",
       "f7c03860-7292-4140-beb6-224cd951ec23",
       "859e9ce4-5ae4-41c2-870e-0365bfc82f72",
       "c06a5078-c070-4469-865d-afe52a8e29c0",
