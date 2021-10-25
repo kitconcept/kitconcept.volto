@@ -4,6 +4,20 @@
     "d3f1c443-583f-4e8e-a682-3bf25752a300": {
       "@type": "title"
     },
+    "19a327d9-6293-4e80-96be-836ef5a0fc77": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
     "b522b9f9-8da3-43d5-b6bd-45f6e289403e": {
       "@type": "slate",
       "plaintext": "Plone 6 allows editors to build sophisticated multi-column page layouts with the Grid Block.",
@@ -18,30 +32,23 @@
         }
       ]
     },
-    "e247de22-f0ae-4cd1-8f97-fe113fa522c8": {
+    "dc23726a-aa0a-40cd-9004-96bca86a578d": {
       "@type": "slate",
-      "plaintext": "  Teaser Grid",
+      "plaintext": "",
       "value": [
         {
           "children": [
             {
               "text": ""
-            },
-            {
-              "children": [
-                {
-                  "text": ""
-                }
-              ],
-              "type": "strong"
-            },
-            {
-              "text": "Teaser Grid"
             }
           ],
-          "type": "h2"
+          "type": "p"
         }
       ]
+    },
+    "f0e70018-c10d-4136-9c4d-2f766d7ec40e": {
+      "@type": "heading",
+      "heading": "TEASER GRID"
     },
     "ba076661-72f2-48c8-aaa6-b054f40b6c85": {
       "@type": "__grid",
@@ -223,44 +230,9 @@
         }
       ]
     },
-    "2131bf9a-9463-48e5-bac2-63fee80a5102": {
-      "@type": "slate",
-      "plaintext": "Combine Text and Images",
-      "value": [
-        {
-          "children": [
-            {
-              "text": "Combine Text and Images"
-            }
-          ],
-          "type": "h2"
-        }
-      ]
-    },
-    "f5cf38b6-fb24-404a-97ed-89bd24790992": {
-      "@type": "slate",
-      "plaintext": " Grid Blocks allow editors to freely combine different kinds of blocks. ",
-      "value": [
-        {
-          "children": [
-            {
-              "text": ""
-            },
-            {
-              "children": [
-                {
-                  "text": "Grid Blocks allow editors to freely combine different kinds of blocks."
-                }
-              ],
-              "type": "strong"
-            },
-            {
-              "text": ""
-            }
-          ],
-          "type": "p"
-        }
-      ]
+    "f380af46-d222-468a-a023-16e828b37204": {
+      "@type": "heading",
+      "heading": "COMBINE TEXT AND IMAGES"
     },
     "10c44703-e012-4487-aeec-694a14bec85e": {
       "@type": "__grid",
@@ -370,19 +342,10 @@
         }
       ]
     },
-    "ad267617-8f06-4b91-9699-591337924a49": {
-      "@type": "slate",
-      "plaintext": "Text and Images in Three Columns",
-      "value": [
-        {
-          "children": [
-            {
-              "text": "Text and Images in Three Columns"
-            }
-          ],
-          "type": "h3"
-        }
-      ]
+    "5c565439-e0b6-4a75-87e5-6473bf780e8a": {
+      "@type": "heading",
+      "heading": "TEXT AND IMAGES IN THREE COLUMNS",
+      "tag": "h3"
     },
     "951202ec-c817-4d75-b582-d71b83946386": {
       "@type": "__grid",
@@ -466,19 +429,9 @@
         }
       ]
     },
-    "d87c94bb-b44d-4e2d-b5d7-a7ac48f6bbcb": {
-      "@type": "slate",
-      "plaintext": "Text Grid",
-      "value": [
-        {
-          "children": [
-            {
-              "text": "Text Grid"
-            }
-          ],
-          "type": "h2"
-        }
-      ]
+    "43ef780c-d193-41f2-9eed-1c231361b64d": {
+      "@type": "heading",
+      "heading": "TEXT GRID"
     },
     "1c6239f4-2013-4ab4-8bee-408fe98261dd": {
       "@type": "__grid",
@@ -810,19 +763,9 @@
         }
       ]
     },
-    "66123196-a091-4750-aa13-29f27bf2abfd": {
-      "@type": "slate",
-      "plaintext": "Image Grid",
-      "value": [
-        {
-          "children": [
-            {
-              "text": "Image Grid"
-            }
-          ],
-          "type": "h2"
-        }
-      ]
+    "742bb970-0f8d-4983-bbfc-fa92fbcc2f02": {
+      "@type": "heading",
+      "heading": "IMAGE GRID"
     },
     "5053d6bd-cebc-4574-bf63-19443debda4a": {
       "@type": "__grid",
@@ -922,25 +865,26 @@
   "blocks_layout": {
     "items": [
       "d3f1c443-583f-4e8e-a682-3bf25752a300",
+      "19a327d9-6293-4e80-96be-836ef5a0fc77",
       "b522b9f9-8da3-43d5-b6bd-45f6e289403e",
-      "e247de22-f0ae-4cd1-8f97-fe113fa522c8",
+      "dc23726a-aa0a-40cd-9004-96bca86a578d",
+      "f0e70018-c10d-4136-9c4d-2f766d7ec40e",
       "ba076661-72f2-48c8-aaa6-b054f40b6c85",
       "19d511fc-34bc-4c47-b2a7-457205ecf290",
       "1916b08c-5f41-434f-8c8b-f2f576296153",
       "5dc88ec1-04fd-4181-9eec-d8322b197f64",
-      "2131bf9a-9463-48e5-bac2-63fee80a5102",
-      "f5cf38b6-fb24-404a-97ed-89bd24790992",
+      "f380af46-d222-468a-a023-16e828b37204",
       "10c44703-e012-4487-aeec-694a14bec85e",
       "0f33f38c-dd58-4ae3-8a0f-dc9e0440f319",
-      "ad267617-8f06-4b91-9699-591337924a49",
+      "5c565439-e0b6-4a75-87e5-6473bf780e8a",
       "951202ec-c817-4d75-b582-d71b83946386",
       "1acb75d8-58c3-4c64-9825-cc72bf1e69e6",
-      "d87c94bb-b44d-4e2d-b5d7-a7ac48f6bbcb",
+      "43ef780c-d193-41f2-9eed-1c231361b64d",
       "1c6239f4-2013-4ab4-8bee-408fe98261dd",
       "7e6f456b-0573-418b-a2f6-3ea517d9b962",
       "a57aa68a-b2f7-4ca9-8cda-83bbe905d2a9",
       "c68cdd11-8a88-4293-8dcd-7c7fd3cc7396",
-      "66123196-a091-4750-aa13-29f27bf2abfd",
+      "742bb970-0f8d-4983-bbfc-fa92fbcc2f02",
       "5053d6bd-cebc-4574-bf63-19443debda4a",
       "1862ac8f-3611-429c-b718-407d1b8a9cfa",
       "82caddbb-96cf-48c3-ab70-e5f75bcb3d74",
