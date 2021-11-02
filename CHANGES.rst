@@ -5,7 +5,9 @@ Changelog
 3.0.0a4 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Remove jq as a dependency. This forces to remove the utility scripts depending on it and related tests.
+  They remain in 2.x series though, for reference.
+  [sneridagh]
 
 
 3.0.0a3 (2021-10-18)
