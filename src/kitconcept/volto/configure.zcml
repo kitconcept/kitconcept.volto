@@ -12,15 +12,9 @@
   <i18n:registerTranslations directory="locales" />
 
   <include package="plone.volto" />
+  <include package="kitconcept.contentcreator" />
 
   <include file="upgrades.zcml" />
-
-  <browser:page
-      name="blocksuuidfixer"
-      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
-      class=".blocksuuidfixer.DuplicatedBlocksUUIDFixer"
-      permission="cmf.ManagePortal"
-      />
 
   <genericsetup:registerProfile
       name="default"
