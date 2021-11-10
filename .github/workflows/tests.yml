@@ -1,0 +1,39 @@
+name: Tests
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python:
+          - 3.9
+          - 3.8
+          - 3.7
+        plone:
+          - "5.2.5"
+          - "5.2.6"
+          - "6.0.0a1"
+        exclude:
+          - plone: "5.2.6"
+            python: 3.9
+          - plone: "5.2.5"
+            python: 3.9
+    steps:
+      # git checkout
+      - uses: actions/checkout@v2
+
+      - name: Setup Plone ${{ matrix.plone }} with Python ${{ matrix.python }}
+        uses: plone/setup-plone@v1.1.0
+        with:
+          python-version: ${{ matrix.python }}
+          plone-version: ${{ matrix.plone }}
+          additional-eggs: "plone.restapi>=8.13.0"
+
+      - name: Install package
+        run: |
+          pip install -e ".[test]" --use-deprecated legacy-resolver
+
+      - name: Run tests
+        run: |
+          PYTHONWARNINGS=ignore zope-testrunner --auto-color --auto-progress --test-path src/
