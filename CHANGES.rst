@@ -5,8 +5,14 @@ Changelog
 3.0.0a6 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Remove blocksuuidfixer browser view, as it is already present in plone.volto.
+  [ericof]
 
+- Explicitly include kitconcept.contentcreator dependency (supporting pip installations)
+  [ericof]
+
+- Use plone/setup-plone@v1.1.0 in Github actions
+  [ericof]
 
 3.0.0a5 (2021-11-10)
 --------------------
