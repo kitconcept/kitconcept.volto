@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-3.0.0a5 (unreleased)
+3.0.0a5 (2021-11-10)
 --------------------
 
 - Add BBB code for behaviors
