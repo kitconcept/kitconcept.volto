@@ -24,14 +24,16 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Setup Plone ${{ matrix.plone }} with Python ${{ matrix.python }}
-        uses: plone/setup-plone@v1.0.0
+        uses: plone/setup-plone@v1.1.0
         with:
           python-version: ${{ matrix.python }}
           plone-version: ${{ matrix.plone }}
+          additional-eggs: "plone.restapi>=8.13.0"
 
       - name: Install package
         run: |
           pip install -e ".[test]" --use-deprecated legacy-resolver
+
       - name: Run tests
         run: |
           PYTHONWARNINGS=ignore zope-testrunner --auto-color --auto-progress --test-path src/

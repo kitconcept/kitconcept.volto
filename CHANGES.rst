@@ -11,7 +11,7 @@ Changelog
 - Explicitly include kitconcept.contentcreator dependency (supporting pip installations)
   [ericof]
 
-- Use plone/setup-plone@v1.0.0 in Github actions
+- Use plone/setup-plone@v1.1.0 in Github actions
   [ericof]
 
 3.0.0a5 (2021-11-10)
