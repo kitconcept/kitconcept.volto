@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-3.0.0a6 (unreleased)
+3.0.0a6 (2021-11-10)
 --------------------
 
 - Remove blocksuuidfixer browser view, as it is already present in plone.volto.
