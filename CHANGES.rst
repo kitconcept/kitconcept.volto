@@ -5,7 +5,8 @@ Changelog
 3.0.0a5 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Add BBB code for behaviors
+  [sneridagh]
 
 
 3.0.0a4 (2021-11-02)
