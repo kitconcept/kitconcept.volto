@@ -331,11 +331,11 @@ def create_root_homepage(context, default_home=None):
                                 "Title": "Text",
                                 "hasPreviewImage": True,
                                 "head_title": None,
-                                "title": "Text"
+                                "title": "Text",
                             }
                         ],
                         "id": "db97d3ce-7087-4960-8fc0-a5eee2ec76a9",
-                        "title": "Text"
+                        "title": "Text",
                     },
                     {
                         "@type": "teaser",
@@ -347,11 +347,11 @@ def create_root_homepage(context, default_home=None):
                                 "Title": "Images",
                                 "hasPreviewImage": True,
                                 "head_title": None,
-                                "title": "Images"
+                                "title": "Images",
                             }
                         ],
                         "id": "eca97615-035d-47f7-b480-a1dde6e09145",
-                        "title": "Images"
+                        "title": "Images",
                     },
                     {
                         "@type": "teaser",
@@ -363,11 +363,11 @@ def create_root_homepage(context, default_home=None):
                                 "Title": "Video",
                                 "hasPreviewImage": True,
                                 "head_title": None,
-                                "title": "Video"
+                                "title": "Video",
                             }
                         ],
                         "id": "bd18f284-6667-47ee-b792-f6057597bc7b",
-                        "title": "Video"
+                        "title": "Video",
                     },
                     {
                         "@type": "teaser",
@@ -379,13 +379,13 @@ def create_root_homepage(context, default_home=None):
                                 "Title": "Grid",
                                 "hasPreviewImage": True,
                                 "head_title": None,
-                                "title": "Grid"
+                                "title": "Grid",
                             }
                         ],
                         "id": "0ca01cc4-85c7-4c56-80e7-796587ce665b",
-                        "title": "Grid"
-                    }
-                ]
+                        "title": "Grid",
+                    },
+                ],
             },
             "278c3d84-ec55-404d-8037-d3d2cd6229e2": {
                 "@type": "slate",
@@ -562,7 +562,7 @@ def create_root_homepage(context, default_home=None):
                 "2368c240-27cf-4b4d-9904-2a651f8858a9",
                 "f3f3123e-8b93-4586-a9a1-f21cf5dfde0f",
                 "7b4c7e43-9056-4775-bbb4-244d888fdee5",
-                "d9be2bf2-29d1-4a3e-b116-393c9b4e31c7"
+                "d9be2bf2-29d1-4a3e-b116-393c9b4e31c7",
             ]
         }
 
