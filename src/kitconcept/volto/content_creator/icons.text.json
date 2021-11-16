@@ -1,0 +1,7 @@
+{
+    "@type": "Image",
+    "title": "Icon: Text",
+    "set_local_image": {
+      "image": "text.svg"
+    }
+}
