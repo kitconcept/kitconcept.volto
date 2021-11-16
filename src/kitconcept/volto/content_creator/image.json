@@ -6,7 +6,5 @@
   "set_local_image": {
     "image": "image-1.jpg"
   },
-  "subjects": [
-    "High Performance Computing"
-  ]
+  "subjects": ["High Performance Computing"]
 }

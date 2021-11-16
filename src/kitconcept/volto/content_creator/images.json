@@ -1,8 +1,25 @@
 {
   "@type": "Document",
+  "set_local_image": {
+    "image": "image.svg"
+  },
   "blocks": {
     "45f3204c-a0ef-4bcd-8f9e-d27d7c61c2ea": {
       "@type": "title"
+    },
+    "7dc7e7b0-4002-462b-a2f0-231060ad932c": {
+      "@type": "slate",
+      "plaintext": "The image block allows embedding images. You can upload a new image or use an existing one. You can display images in different sizes. You can align an image to the left, to the right or display it in the center or with 100% width.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The image block allows embedding images. You can upload a new image or use an existing one. You can display images in different sizes. You can align an image to the left, to the right or display it in the center or with 100% width."
+            }
+          ],
+          "type": "p"
+        }
+      ]
     },
     "6790be8f-3dc0-47b9-b48d-7bac213e197b": {
       "@type": "slate",
@@ -425,6 +442,7 @@
   "blocks_layout": {
     "items": [
       "45f3204c-a0ef-4bcd-8f9e-d27d7c61c2ea",
+      "7dc7e7b0-4002-462b-a2f0-231060ad932c",
       "6790be8f-3dc0-47b9-b48d-7bac213e197b",
       "d2866842-b007-49a2-a06f-a0bfab88b4f2",
       "05486b9c-a2c5-4963-a586-cf39b3d982d2",
@@ -463,7 +481,7 @@
   },
   "id": "images",
   "title": "Images",
-  "description": "",
+  "description": "The image block allows embedding images. You can upload a new image or use an existing one. You can display images in different sizes. You can align an image to the left, to the right or display it in the center or with 100% width.",
   "review_state": "published",
   "subjects": []
 }
