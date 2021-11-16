@@ -552,7 +552,6 @@ def create_root_homepage(context, default_home=None):
                 "f93e1aad-38e7-468b-80ff-437b74bb9a68",
                 "90d6d46f-f9d1-4ffd-a355-8317794aae75",
                 "fb832317-f36d-4dcd-b8e2-bb18f1970842",
-                "fe2a383a-6916-4d3b-bbfa-d3d17c1c10e3",
                 "278c3d84-ec55-404d-8037-d3d2cd6229e2",
                 "1e10e2c1-5f68-4ce3-96b4-542ada4798c1",
                 "7a7d8c76-fcf0-4602-bb56-1a77c8e6bf31",
