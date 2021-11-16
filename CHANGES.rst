@@ -2,10 +2,37 @@ Changelog
 =========
 
 
-3.0.0a4 (unreleased)
+3.0.0a7 (unreleased)
 --------------------
 
 - Nothing changed yet.
+
+
+3.0.0a6 (2021-11-10)
+--------------------
+
+- Remove blocksuuidfixer browser view, as it is already present in plone.volto.
+  [ericof]
+
+- Explicitly include kitconcept.contentcreator dependency (supporting pip installations)
+  [ericof]
+
+- Use plone/setup-plone@v1.1.0 in Github actions
+  [ericof]
+
+3.0.0a5 (2021-11-10)
+--------------------
+
+- Add BBB code for behaviors
+  [sneridagh]
+
+
+3.0.0a4 (2021-11-02)
+--------------------
+
+- Remove jq as a dependency. This forces to remove the utility scripts depending on it and related tests.
+  They remain in 2.x series though, for reference.
+  [sneridagh]
 
 
 3.0.0a3 (2021-10-18)
