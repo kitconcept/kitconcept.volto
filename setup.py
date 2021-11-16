@@ -16,7 +16,7 @@ long_description = "\n\n".join(
 
 setup(
     name="kitconcept.volto",
-    version="3.0.0a4.dev0",
+    version="3.0.0a7.dev0",
     description="Volto integration add-on for Plone",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
@@ -45,22 +45,16 @@ setup(
     install_requires=[
         "plone.volto",
         "plone.api",
-        "Products.GenericSetup>=1.8.2",
+        "Products.GenericSetup",
         "setuptools",
-        "z3c.jbot",
         "plone.restapi",
         "collective.folderishtypes[dexterity]",
         "kitconcept.contentcreator",
-        "requests",
-        "jq",
     ],
     extras_require={
         "test": [
             "plone.app.testing",
-            # Plone KGS does not use this version, because it would break
-            # Remove if your package shall be part of coredev.
-            # plone_coredev tests as of 2016-04-01.
-            "plone.testing>=5.0.0",
+            "plone.testing",
             "plone.app.contenttypes",
             "plone.app.robotframework[debug]",
         ]
