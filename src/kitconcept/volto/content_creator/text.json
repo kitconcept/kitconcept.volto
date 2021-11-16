@@ -4,6 +4,20 @@
     "1452aefa-fcbb-41cf-b345-50c810104dae": {
       "@type": "title"
     },
+    "180db0b9-ec22-4ce8-9a79-2673d20d9a94": {
+      "@type": "slate",
+      "plaintext": "The text block allows you to create paragraphs of formatted text.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The text block allows you to create paragraphs of formatted text."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
     "dbed0a46-f220-4300-afb7-540b1718d70e": {
       "@type": "slate",
       "plaintext": "Lorem ipsum dolor sit amet  consetetur sadipscing elitr  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat  sed diam voluptua  At vero eos et accusam et justo duo dolores et ea rebum  Stet clita kasd gubergren  no sea takimata sanctus est Lorem ipsum dolor sit amet  Lorem ipsum dolor sit amet  consetetur sadipscing elitr  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat  sed diam voluptua  At vero eos et accusam et justo duo dolores et ea rebum  Stet clita kasd gubergren  no sea takimata sanctus est Lorem ipsum dolor sit amet ",
@@ -652,6 +666,7 @@
   "blocks_layout": {
     "items": [
       "1452aefa-fcbb-41cf-b345-50c810104dae",
+      "180db0b9-ec22-4ce8-9a79-2673d20d9a94",
       "dbed0a46-f220-4300-afb7-540b1718d70e",
       "54035ade-eb2c-4429-a112-72408ad38775",
       "aa6226dc-94c9-4004-b4b0-edb46117c1d0",
@@ -670,7 +685,7 @@
   },
   "id": "text",
   "title": "Text",
-  "description": "",
+  "description": "The text block allows you to create paragraphs of formatted text.",
   "review_state": "published",
   "subjects": []
 }
