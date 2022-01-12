@@ -1,8 +1,3 @@
-import json
-import logging
-import os
-
-import transaction
 from kitconcept.contentcreator.creator import content_creator_from_folder
 from plone import api
 from plone.app.multilingual.browser.setup import SetupMultilingualSite
@@ -21,6 +16,12 @@ from zope.component import queryUtility
 from zope.component.interfaces import IFactory
 from zope.container.interfaces import INameChooser
 from zope.interface import implementer
+
+import json
+import logging
+import os
+import transaction
+
 
 logger = logging.getLogger("kitconcept.volto")
 
@@ -193,7 +194,7 @@ default_lrf_home = {
                 "blocks": [
                     {
                         "key": "618bl",
-                        "text": "Nulla porttitor accumsan tincidunt. Sed porttitor lectus nibh. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus.",
+                        "text": "",
                         "type": "unstyled",
                         "depth": 0,
                         "inlineStyleRanges": [],

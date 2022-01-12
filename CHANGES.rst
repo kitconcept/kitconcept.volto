@@ -5,7 +5,8 @@ Changelog
 3.0.0a7 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Create LRF with an empty text blocks
+  [tisto]
 
 
 3.0.0a6 (2021-11-10)
