@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-3.0.0a7 (unreleased)
+3.0.0a7 (2022-01-12)
 --------------------
 
 - Create LRF with an empty text blocks
