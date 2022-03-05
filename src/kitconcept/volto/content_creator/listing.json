@@ -9,12 +9,12 @@
     },
     "7fa6281f-5de2-4880-8e1a-21996e5d0245": {
       "@type": "slate",
-      "plaintext": "The Listing Block allows you to create auto-generated listings based on a criteria (such as the type of object).",
+      "plaintext": "The Listing Block allows you to create auto-generated listings based on filter criteria (such as the type of object).",
       "value": [
         {
           "children": [
             {
-              "text": "The Listing Block allows you to create auto-generated listings based on a criteria (such as the type of object)."
+              "text": "The Listing Block allows you to create auto-generated listings based on a filter criteria (such as the type of object)."
             }
           ],
           "type": "p"
@@ -38,14 +38,19 @@
     "1efc5539-0fd1-431e-ac22-0902ea4047d5": {
       "@type": "listing",
       "block": "1efc5539-0fd1-431e-ac22-0902ea4047d5",
-      "query": [],
       "querystring": {
+        "depth": "1",
         "limit": "4",
         "query": [
           {
             "i": "portal_type",
             "o": "plone.app.querystring.operation.selection.any",
             "v": ["Document"]
+          },
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "/examples"
           }
         ],
         "sort_order": "ascending"
@@ -71,12 +76,18 @@
       "block": "77524570-fd74-4eab-8e5c-4f373f69cf2a",
       "query": [],
       "querystring": {
+        "depth": "1",
         "limit": "4",
         "query": [
           {
             "i": "portal_type",
             "o": "plone.app.querystring.operation.selection.any",
             "v": ["Document"]
+          },
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "/examples"
           }
         ],
         "sort_order": "ascending"
@@ -102,11 +113,17 @@
       "block": "382a1d95-eb98-4d85-9efc-88fe884a8045",
       "query": [],
       "querystring": {
+        "depth": "1",
         "query": [
           {
             "i": "portal_type",
             "o": "plone.app.querystring.operation.selection.any",
             "v": ["Image"]
+          },
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "/examples"
           }
         ],
         "sort_order": "ascending"
