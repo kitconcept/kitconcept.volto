@@ -161,6 +161,6 @@
   "id": "listing",
   "title": "Listing",
   "description": "The Listing Block allows you to create auto-generated listings based on a criteria (such as the type of object).",
-  "review_state": "private",
+  "review_state": "published",
   "subjects": []
 }
