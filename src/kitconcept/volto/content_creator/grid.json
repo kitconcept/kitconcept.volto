@@ -1,5 +1,8 @@
 {
   "@type": "Document",
+  "set_local_image": {
+    "preview_image": "grid.svg"
+  },
   "blocks": {
     "d3f1c443-583f-4e8e-a682-3bf25752a300": {
       "@type": "title"
@@ -894,7 +897,7 @@
   },
   "id": "grid",
   "title": "Grid",
-  "description": "",
+  "description": "The Grid Block allows editors to build sophisticated page multi-column page layouts.",
   "review_state": "published",
   "subjects": []
 }

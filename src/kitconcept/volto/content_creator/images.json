@@ -1,7 +1,7 @@
 {
   "@type": "Document",
   "set_local_image": {
-    "image": "image.svg"
+    "preview_image": "image.svg"
   },
   "blocks": {
     "45f3204c-a0ef-4bcd-8f9e-d27d7c61c2ea": {

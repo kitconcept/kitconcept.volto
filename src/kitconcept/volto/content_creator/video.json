@@ -1,7 +1,7 @@
 {
   "@type": "Document",
   "set_local_image": {
-    "image": "videocamera.svg"
+    "preview_image": "videocamera.svg"
   },
   "blocks": {
     "fb4ae53a-9e85-4caf-a0c2-8fc66911a7d4": {
@@ -238,7 +238,7 @@
   },
   "id": "video",
   "title": "Video",
-  "description": "",
+  "description": "The video block allows uploading YouTube, Vimeo, or video files stored in Plone.",
   "review_state": "published",
   "subjects": []
 }

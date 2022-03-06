@@ -319,6 +319,75 @@ def create_root_homepage(context, default_home=None):
                     }
                 ],
             },
+            "fb832317-f36d-4dcd-b8e2-bb18f1970842": {
+                "@type": "__grid",
+                "columns": [
+                    {
+                        "@type": "teaser",
+                        "description": "The text block allows you to create paragraphs of formatted text.",
+                        "href": [
+                            {
+                                "@id": "/text",
+                                "Description": "The text block allows you to create paragraphs of formatted text.",
+                                "Title": "Text",
+                                "hasPreviewImage": True,
+                                "head_title": None,
+                                "title": "Text",
+                            }
+                        ],
+                        "id": "db97d3ce-7087-4960-8fc0-a5eee2ec76a9",
+                        "title": "Text",
+                    },
+                    {
+                        "@type": "teaser",
+                        "description": "The image block allows embedding images. You can upload a new image or use an existing one. You can display images in different sizes. You can align an image to the left, to the right or display it in the center or with 100% width.",
+                        "href": [
+                            {
+                                "@id": "/images",
+                                "Description": "The image block allows embedding images. You can upload a new image or use an existing one. You can display images in different sizes. You can align an image to the left, to the right or display it in the center or with 100% width.",
+                                "Title": "Images",
+                                "hasPreviewImage": True,
+                                "head_title": None,
+                                "title": "Images",
+                            }
+                        ],
+                        "id": "eca97615-035d-47f7-b480-a1dde6e09145",
+                        "title": "Images",
+                    },
+                    {
+                        "@type": "teaser",
+                        "description": "The video block allows uploading YouTube, Vimeo, or video files stored in Plone.",
+                        "href": [
+                            {
+                                "@id": "/video",
+                                "Description": "The video block allows uploading YouTube, Vimeo, or video files stored in Plone.",
+                                "Title": "Video",
+                                "hasPreviewImage": True,
+                                "head_title": None,
+                                "title": "Video",
+                            }
+                        ],
+                        "id": "bd18f284-6667-47ee-b792-f6057597bc7b",
+                        "title": "Video",
+                    },
+                    {
+                        "@type": "teaser",
+                        "description": "The Grid Block allows editors to build sophisticated page multi-column page layouts.",
+                        "href": [
+                            {
+                                "@id": "/grid",
+                                "Description": "The Grid Block allows editors to build sophisticated page multi-column page layouts.",
+                                "Title": "Grid",
+                                "hasPreviewImage": True,
+                                "head_title": None,
+                                "title": "Grid",
+                            }
+                        ],
+                        "id": "0ca01cc4-85c7-4c56-80e7-796587ce665b",
+                        "title": "Grid",
+                    },
+                ],
+            },
             "278c3d84-ec55-404d-8037-d3d2cd6229e2": {
                 "@type": "slate",
                 "plaintext": "No Code Content Types, Forms, and Faceted Search",
@@ -483,6 +552,7 @@ def create_root_homepage(context, default_home=None):
                 "ba20f545-df1e-4cf7-9b49-822b4c354cdf",
                 "f93e1aad-38e7-468b-80ff-437b74bb9a68",
                 "90d6d46f-f9d1-4ffd-a355-8317794aae75",
+                "fb832317-f36d-4dcd-b8e2-bb18f1970842",
                 "278c3d84-ec55-404d-8037-d3d2cd6229e2",
                 "1e10e2c1-5f68-4ce3-96b4-542ada4798c1",
                 "7a7d8c76-fcf0-4602-bb56-1a77c8e6bf31",
