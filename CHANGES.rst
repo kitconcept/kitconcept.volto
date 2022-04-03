@@ -5,7 +5,8 @@ Changelog
 3.0.0a8 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Updated examples content.
+  [robgietema]
 
 
 3.0.0a7 (2022-01-12)
