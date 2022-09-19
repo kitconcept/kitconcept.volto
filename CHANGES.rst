@@ -8,6 +8,9 @@ Changelog
 - Updated examples content.
   [robgietema]
 
+- Remove unused dependency on collective.folderishtypes.
+  [davisagli]
+
 
 3.0.0a7 (2022-01-12)
 --------------------

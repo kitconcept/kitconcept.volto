@@ -7,18 +7,21 @@ jobs:
       fail-fast: false
       matrix:
         python:
+          - "3.10"
           - 3.9
           - 3.8
           - 3.7
         plone:
-          - "5.2.5"
-          - "5.2.6"
-          - "6.0.0a1"
+          - "5.2.9"
+          - "6.0.0b2"
         exclude:
-          - plone: "5.2.6"
+          - plone: "5.2.9"
             python: 3.9
-          - plone: "5.2.5"
-            python: 3.9
+          - plone: "5.2.9"
+            python: "3.10"
+          - plone: "6.0.0b2"
+            python: 3.7
+
     steps:
       # git checkout
       - uses: actions/checkout@v2
@@ -32,7 +35,7 @@ jobs:
 
       - name: Install package
         run: |
-          pip install -e ".[test]" --use-deprecated legacy-resolver
+          pip install -e ".[test]"
 
       - name: Run tests
         run: |
