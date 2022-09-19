@@ -8,6 +8,8 @@ Changelog
 - Updated examples content.
   [robgietema]
 
+- Add examples content of Maps Block
+  [iRohitSingh]
 
 3.0.0a7 (2022-01-12)
 --------------------

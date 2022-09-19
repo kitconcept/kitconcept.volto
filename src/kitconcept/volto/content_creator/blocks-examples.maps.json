@@ -1,0 +1,234 @@
+{
+  "@type": "Document",
+  "blocks": {
+    "38559129-b780-4cce-8d9d-d2deeae5fa09": {
+      "@type": "maps",
+      "align": "right",
+      "url": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5050.994138367634!2d7.105322!3d50.729269!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xafb410d310340cc2!2skitconcept%20GmbH!5e0!3m2!1sde!2sde!4v1652691401829!5m2!1sde!2sde"
+    },
+    "41b8047c-84bf-4dd0-af3d-c15459c98414": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "6a4daab0-7f4e-44ae-ab9d-7939616229aa": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "73073112-9bd7-4f35-b953-a597002a8c36": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "7c6ac871-2e48-4f7b-8b31-087079f3aea4": {
+      "@type": "slate",
+      "plaintext": "Maps-Block (Align Right)",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Maps-Block (Align Right)"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "8460442f-14d8-41dc-bb21-400cd8d8e6e7": {
+      "@type": "slate",
+      "plaintext": "The Maps-Block can be aligned to the right with text floating around it on the left side.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The Maps-Block can be aligned to the right with text floating around it on the left side."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "84e7a0c4-5121-4292-9ee2-2c6581c320f9": {
+      "@type": "slate",
+      "plaintext": "Maps-Block (Full Width)",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Maps-Block (Full Width)"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "a2151505-2d78-4338-9d9a-8c95b4e105e3": {
+      "@type": "title"
+    },
+    "abf5f412-9c4a-43bd-ad5c-5a77dace796f": {
+      "@type": "maps",
+      "align": "full",
+      "url": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5050.994138367634!2d7.105322!3d50.729269!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xafb410d310340cc2!2skitconcept%20GmbH!5e0!3m2!1sde!2sde!4v1652691401829!5m2!1sde!2sde"
+    },
+    "ad55a604-cd29-438f-8468-8c7e7e6ac760": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b3b6c7a8-956a-4f77-8df8-c23ce3e2e799": {
+      "@type": "maps",
+      "align": "left",
+      "url": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5050.994138367634!2d7.105322!3d50.729269!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xafb410d310340cc2!2skitconcept%20GmbH!5e0!3m2!1sde!2sde!4v1652691401829!5m2!1sde!2sde"
+    },
+    "b3cff9a3-c7c7-45e4-8894-38f773063b57": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c6a45f6c-8719-49d6-99de-10dfe6a2e257": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "cdb1df53-15e8-4b25-9b2a-0b35607d3c8a": {
+      "@type": "maps",
+      "url": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5050.994138367634!2d7.105322!3d50.729269!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xafb410d310340cc2!2skitconcept%20GmbH!5e0!3m2!1sde!2sde!4v1652691401829!5m2!1sde!2sde"
+    },
+    "d70d0c11-4092-48a3-87b3-e7123451349b": {
+      "@type": "slate",
+      "plaintext": "The Maps-Block can be aligned to the left with text floating around it on the right side.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The Maps-Block can be aligned to the left with text floating around it on the right side."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "d904c87c-b376-499e-bf7f-2b08aa919288": {
+      "@type": "slate",
+      "plaintext": "Maps-Block (Align: Left)",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Maps-Block (Align: Left)"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "df7ddb99-3767-4bb2-8b7d-d122e6400087": {
+      "@type": "slate",
+      "plaintext": "Maps-Block (Standard Size)",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Maps-Block (Standard Size)"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "e7941efe-8e4e-4445-8ea2-f9e495748e24": {
+      "@type": "slate",
+      "plaintext": "The maps-Block can be displayed in full width (100% of the window size).",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The maps-Block can be displayed in full width (100% of the window size)."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "a2151505-2d78-4338-9d9a-8c95b4e105e3",
+      "df7ddb99-3767-4bb2-8b7d-d122e6400087",
+      "cdb1df53-15e8-4b25-9b2a-0b35607d3c8a",
+      "84e7a0c4-5121-4292-9ee2-2c6581c320f9",
+      "e7941efe-8e4e-4445-8ea2-f9e495748e24",
+      "abf5f412-9c4a-43bd-ad5c-5a77dace796f",
+      "7c6ac871-2e48-4f7b-8b31-087079f3aea4",
+      "8460442f-14d8-41dc-bb21-400cd8d8e6e7",
+      "38559129-b780-4cce-8d9d-d2deeae5fa09",
+      "ad55a604-cd29-438f-8468-8c7e7e6ac760",
+      "73073112-9bd7-4f35-b953-a597002a8c36",
+      "d904c87c-b376-499e-bf7f-2b08aa919288",
+      "d70d0c11-4092-48a3-87b3-e7123451349b",
+      "b3b6c7a8-956a-4f77-8df8-c23ce3e2e799",
+      "b3cff9a3-c7c7-45e4-8894-38f773063b57",
+      "6a4daab0-7f4e-44ae-ab9d-7939616229aa",
+      "c6a45f6c-8719-49d6-99de-10dfe6a2e257",
+      "41b8047c-84bf-4dd0-af3d-c15459c98414"
+    ]
+  },
+  "review_state": "published",
+  "subjects": [],
+  "title": "Maps"
+}
