@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-3.0.0a8 (unreleased)
+3.0.0a8 (2022-09-20)
 --------------------
 
 - Updated examples content.
