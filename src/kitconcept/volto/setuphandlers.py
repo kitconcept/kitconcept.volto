@@ -1,3 +1,4 @@
+from importlib import import_module
 from kitconcept.contentcreator.creator import content_creator_from_folder
 from plone import api
 from plone.app.multilingual.browser.setup import SetupMultilingualSite
@@ -22,6 +23,7 @@ import logging
 import os
 import transaction
 
+PLONE_6 = getattr(import_module("Products.CMFPlone.factory"), "PLONE60MARKER", False)
 
 logger = logging.getLogger("kitconcept.volto")
 
@@ -37,7 +39,9 @@ def post_install(context):
     """Post install script"""
     # portal = api.portal.get()
     # create_default_homepage()
-
+    # For Plone 6, make sure the blocks behavior is enabled in the root
+    if PLONE_6:
+        add_behavior("Plone Site", "volto.blocks")
 
 def uninstall(context):
     """Uninstall script"""
@@ -503,14 +507,17 @@ def create_root_homepage(context, default_home=None):
 
         logger.info("Creating default homepage in Plone site root - not PAM enabled")
 
-    # Common part
-    if not getattr(portal, "blocks", False):
-        portal.manage_addProperty("blocks", json.dumps(blocks), "string")
+    if PLONE_6:
+        portal.blocks = blocks
+        portal.blocks_layout = blocks_layout
+    else:
+        if not getattr(portal, "blocks", False):
+            portal.manage_addProperty("blocks", json.dumps(blocks), "string")
 
-    if not getattr(portal, "blocks_layout", False):
-        portal.manage_addProperty(
-            "blocks_layout", json.dumps(blocks_layout), "string"
-        )  # noqa
+        if not getattr(portal, "blocks_layout", False):
+            portal.manage_addProperty(
+                "blocks_layout", json.dumps(blocks_layout), "string"
+            )  # noqa
 
 
 def import_example_content(context):
